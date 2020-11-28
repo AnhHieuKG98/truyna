@@ -1,0 +1,16 @@
+Theme Backend
+Title: <?php echo $title;?>
+<br />
+Layout Left | Body
+
+<br />
+
+Nội dung của partials :   
+    <?php  
+    #if (  $theme->has_partials('sidebar')){
+      #echo $partials['sidebar']; 
+      
+    #}
+    ?>
+    <br />
+Nội dung từ view : <?php echo $content;?>

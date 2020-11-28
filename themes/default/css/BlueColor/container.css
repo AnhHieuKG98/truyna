@@ -1,0 +1,129 @@
+.Bluec1_border { border: 1px solid #EAF8FB; }
+.Bluec1_tbg { background: url(c1_top.jpg) top repeat-x; height: 28px; padding-left: 14px; padding-top: 5px; }
+.Bluec2_bbg { background: url(c2_bottom.jpg) bottom repeat-x; height: 25px; }
+.Bluec3_bg { background: url(c3_bg.jpg) top repeat-x #2187A2;   }
+.Bluec3_bg a, .Bluec3_bg a:link, .Bluegraybox a, .Bluegraybox a:link { color: #FFFFFF; font-size: 11px; font-weight: bold; text-decoration: underline; }
+.Bluec3_bg p ,.Bluec3_bg strong, .Bluec3_bg div, .Bluegraybox p ,.Bluegraybox strong, .Bluegraybox div { color: #FFFFFF; font-size: 11px; }
+.Bluec4_bg { background: url(c4_bg.jpg) repeat-x top #303030; border: #797979 1px solid; }
+.Bluec4_bg a, .Bluec4_bg a:link { color: #FFFFFF; font-size: 12px; font-weight: bold; text-decoration: underline; }
+.Bluec4_bg p ,.Bluec4_bg strong, .Bluec4_bg div { color: #FFFFFF; font-size: 12px; }
+.dialogtitle1{ color: #165C6E; font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; }
+.dialogtitle2{ color: #2390AC; font-family:Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; }
+.dialogtitle3{ color: #FFFFFF; font-family:Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; }
+.dialogtitle4{ color: #FFFFFF; font-family:Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold; }
+.dialogtitle5
+{
+    color: #004B89;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.content_logo
+{
+    background: url('logochim.jpg') no-repeat 280px 50px;   
+    height:100%;
+}
+.Bluegraybox { background-color: #464646; }
+.Bluegraybox a:hover, .Bluec3_bg a:hover, .Bluec4_bg a:hover { color: #fff; text-decoration: none; }
+.titlespace { padding-left: 14px; padding-top: 14px; }
+
+.Bluec5_border { border: 1px solid #9AB2CA; background-color: #E1E9F4; }
+.Bluec5_tbg  
+{
+    background: url(c5_top.jpg) top repeat-x; 
+    height: 25px; padding-left: 5px; padding-top: 3px;
+    border-bottom: 1px solid #9AB2CA;
+}
+.titleContent
+{
+    padding:0 0 5px 20px;
+    background-image: url(dot-title.gif);
+    background-repeat: no-repeat;
+    
+}
+.BlankContent
+{
+    background-color: #E1E9F4;
+    padding:2px;
+    border: 1px solid #9AB2CA;
+}
+
+/*--   Giao dien silver container 1  --*/
+.SilverContent { padding:0px; }
+
+.silver_border
+{
+    border: 1px solid #CDCDCD;
+    background-color: #F7F7F7;
+}
+.silver_tbg  
+{
+    background: url(bg_silver_title_container.jpg) top repeat-x; 
+    height: 25px; padding-left: 5px; padding-top: 3px;
+    border-bottom: 1px solid #F7F7F7;
+}
+.silver_titleContent
+{
+    padding: 3px 0 5px 15px;
+    background-position: 3px center;
+    background-image: url(dot_title.jpg);
+    background-repeat: no-repeat;
+}
+.dialogTitleSilver
+{
+    color: #762220;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+}
+/*--   Giao dien silver container 2  --*/
+.silver_border2
+{
+    border-bottom: 1px solid #CDCDCD;
+    background-color: #F7F7F7;
+}
+/*--   Giao dien khong title - silver container  --*/
+.SilverBlankContent
+{
+    background-color: #F7F7F7;
+    padding: 1px;
+    border: 1px solid #CDCDCD;
+}
+/*--   Giao dien khong title - silver container 3 --*/
+.SilverDialogtitle3
+{
+    color: #792523;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+}
+.Silver3_tbg
+{
+    background:#FDFDFD url(folder-topcenter2.gif) repeat-x left top;
+    padding:5px 0 0 7px;
+    margin:0;
+}
+.Silver3_border 
+{
+	background-color:#FDFDFD;
+	border: 1px #BDBDBD solid;
+	margin-left:5px;
+}
+.Silver4_border { padding:0; margin:0; }
+
+/*--   Giao dien khong title - silver container 4 --*/
+.SilverDialogtitle4
+{
+    color: #391E09;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+.Silver4_tbg
+{
+    background: url(dot1_title.gif) no-repeat 3px top;
+    border-bottom: 1px #bdbdbd solid;
+    padding:0 0 5px 24px;
+    margin:0;
+}

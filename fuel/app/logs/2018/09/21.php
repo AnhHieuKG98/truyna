@@ -1,0 +1,114 @@
+<?php defined('COREPATH') or exit('No direct script access allowed'); ?>
+
+ERROR - 2018-09-21 14:13:29 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 264
+ERROR - 2018-09-21 14:34:24 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 264
+ERROR - 2018-09-21 14:36:29 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 264
+ERROR - 2018-09-21 14:49:53 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 264
+ERROR - 2018-09-21 14:50:05 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 264
+ERROR - 2018-09-21 14:52:50 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 264
+ERROR - 2018-09-21 14:55:50 --> Notice - Array to string conversion in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 398
+ERROR - 2018-09-21 14:58:37 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 264
+ERROR - 2018-09-21 15:02:37 --> Error - syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 399
+ERROR - 2018-09-21 15:03:05 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 402
+ERROR - 2018-09-21 15:09:24 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 264
+ERROR - 2018-09-21 15:10:12 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 264
+ERROR - 2018-09-21 15:10:31 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 264
+ERROR - 2018-09-21 15:11:07 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 264
+ERROR - 2018-09-21 15:11:24 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 264
+ERROR - 2018-09-21 15:12:43 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 264
+ERROR - 2018-09-21 15:13:17 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 264
+ERROR - 2018-09-21 15:17:42 --> Error - Relation "room_typesa" was not found in the model. in C:\xampp\htdocs\fu_hotel\fuel\packages\orm\classes\query.php on line 930
+ERROR - 2018-09-21 15:18:26 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 265
+ERROR - 2018-09-21 15:18:37 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 265
+ERROR - 2018-09-21 15:50:39 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 265
+ERROR - 2018-09-21 15:51:21 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 265
+ERROR - 2018-09-21 15:56:49 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 265
+ERROR - 2018-09-21 15:58:44 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 265
+ERROR - 2018-09-21 15:58:49 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 265
+ERROR - 2018-09-21 16:00:53 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 265
+ERROR - 2018-09-21 16:02:10 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 265
+ERROR - 2018-09-21 16:06:21 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 265
+ERROR - 2018-09-21 16:06:28 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 265
+ERROR - 2018-09-21 16:06:35 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 265
+ERROR - 2018-09-21 16:07:11 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 265
+ERROR - 2018-09-21 16:07:53 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 265
+ERROR - 2018-09-21 16:07:57 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 265
+ERROR - 2018-09-21 16:09:48 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 265
+ERROR - 2018-09-21 16:09:55 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 265
+ERROR - 2018-09-21 16:16:39 --> Notice - Undefined index: body in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 447
+ERROR - 2018-09-21 16:16:46 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 265
+ERROR - 2018-09-21 16:17:10 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 265
+ERROR - 2018-09-21 16:17:20 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 265
+ERROR - 2018-09-21 16:17:24 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 265
+ERROR - 2018-09-21 16:17:28 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 265
+ERROR - 2018-09-21 16:17:59 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 265
+ERROR - 2018-09-21 16:18:52 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 265
+ERROR - 2018-09-21 16:19:01 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 265
+ERROR - 2018-09-21 16:19:08 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 265
+ERROR - 2018-09-21 16:19:16 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 265
+ERROR - 2018-09-21 16:19:20 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 265
+ERROR - 2018-09-21 16:20:10 --> Compile Error - Constant expression contains invalid operations in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\room\classes\model\room\post.php on line 107
+ERROR - 2018-09-21 16:20:21 --> Compile Error - Constant expression contains invalid operations in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\room\classes\model\room\post.php on line 107
+ERROR - 2018-09-21 16:20:27 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 265
+ERROR - 2018-09-21 16:20:54 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 265
+ERROR - 2018-09-21 16:21:17 --> 42S22 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fu_t3.lang_code' in 'where clause' with query: "SELECT `fu_t0`.`id` AS `t0_c0`, `fu_t0`.`book_url` AS `t0_c1`, `fu_t0`.`slug` AS `t0_c2`, `fu_t0`.`status` AS `t0_c3`, `fu_t0`.`position` AS `t0_c4`, `fu_t1`.`room_id` AS `t1_c0`, `fu_t1`.`lang_code` AS `t1_c1`, `fu_t1`.`title` AS `t1_c2`, `fu_t1`.`summary` AS `t1_c3`, `fu_t1`.`meta_keywords` AS `t1_c4`, `fu_t1`.`meta_description` AS `t1_c5`, `fu_t1`.`body` AS `t1_c6`, `fu_t1`.`price` AS `t1_c7`, `fu_t1`.`data_max` AS `t1_c8`, `fu_t1`.`data_bed` AS `t1_c9`, `fu_t1`.`data_view` AS `t1_c10`, `fu_t2`.`id` AS `t2_c0`, `fu_t2`.`object_id` AS `t2_c1`, `fu_t2`.`image_path` AS `t2_c2`, `fu_t2`.`object_type` AS `t2_c3`, `fu_t2`.`position` AS `t2_c4`, `fu_t3`.`id` AS `t3_c0`, `fu_t3`.`room_id` AS `t3_c1`, `fu_t3`.`position` AS `t3_c2` FROM (SELECT `fu_t0`.`id`, `fu_t0`.`book_url`, `fu_t0`.`slug`, `fu_t0`.`status`, `fu_t0`.`position` FROM `fu_room_posts` AS `fu_t0` WHERE `fu_t0`.`id` = '44' LIMIT 1) AS `fu_t0` LEFT JOIN `fu_room_posts_lang` AS `fu_t1` ON (`fu_t0`.`id` = `fu_t1`.`room_id`) LEFT JOIN `fu_room_images` AS `fu_t2` ON (`fu_t0`.`id` = `fu_t2`.`object_id`) LEFT JOIN `fu_room_posts_types` AS `fu_t3` ON (`fu_t0`.`id` = `fu_t3`.`room_id`) WHERE `fu_t1`.`lang_code` = 'vi' AND `fu_t1`.`room_id` = '44' AND `fu_t3`.`lang_code` = 'vi'" in C:\xampp\htdocs\fu_hotel\fuel\core\classes\database\pdo\connection.php on line 223
+ERROR - 2018-09-21 16:21:25 --> 42S22 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fu_t3.lang_code' in 'where clause' with query: "SELECT `fu_t0`.`id` AS `t0_c0`, `fu_t0`.`book_url` AS `t0_c1`, `fu_t0`.`slug` AS `t0_c2`, `fu_t0`.`status` AS `t0_c3`, `fu_t0`.`position` AS `t0_c4`, `fu_t1`.`room_id` AS `t1_c0`, `fu_t1`.`lang_code` AS `t1_c1`, `fu_t1`.`title` AS `t1_c2`, `fu_t1`.`summary` AS `t1_c3`, `fu_t1`.`meta_keywords` AS `t1_c4`, `fu_t1`.`meta_description` AS `t1_c5`, `fu_t1`.`body` AS `t1_c6`, `fu_t1`.`price` AS `t1_c7`, `fu_t1`.`data_max` AS `t1_c8`, `fu_t1`.`data_bed` AS `t1_c9`, `fu_t1`.`data_view` AS `t1_c10`, `fu_t2`.`id` AS `t2_c0`, `fu_t2`.`object_id` AS `t2_c1`, `fu_t2`.`image_path` AS `t2_c2`, `fu_t2`.`object_type` AS `t2_c3`, `fu_t2`.`position` AS `t2_c4`, `fu_t3`.`id` AS `t3_c0`, `fu_t3`.`room_id` AS `t3_c1`, `fu_t3`.`position` AS `t3_c2` FROM (SELECT `fu_t0`.`id`, `fu_t0`.`book_url`, `fu_t0`.`slug`, `fu_t0`.`status`, `fu_t0`.`position` FROM `fu_room_posts` AS `fu_t0` WHERE `fu_t0`.`id` = '44' LIMIT 1) AS `fu_t0` LEFT JOIN `fu_room_posts_lang` AS `fu_t1` ON (`fu_t0`.`id` = `fu_t1`.`room_id`) LEFT JOIN `fu_room_images` AS `fu_t2` ON (`fu_t0`.`id` = `fu_t2`.`object_id`) LEFT JOIN `fu_room_posts_types` AS `fu_t3` ON (`fu_t0`.`id` = `fu_t3`.`room_id`) WHERE `fu_t1`.`lang_code` = 'vi' AND `fu_t1`.`room_id` = '44' AND `fu_t3`.`lang_code` = 'vi'" in C:\xampp\htdocs\fu_hotel\fuel\core\classes\database\pdo\connection.php on line 223
+ERROR - 2018-09-21 16:21:55 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 270
+ERROR - 2018-09-21 16:23:49 --> 42S22 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fu_t0.lang_code' in 'where clause' with query: "SELECT `fu_t0`.`id` AS `t0_c0`, `fu_t0`.`room_id` AS `t0_c1`, `fu_t0`.`position` AS `t0_c2` FROM `fu_room_posts_types` AS `fu_t0` WHERE `fu_t0`.`room_id` = '44' AND `fu_t0`.`lang_code` = 'vi'" in C:\xampp\htdocs\fu_hotel\fuel\core\classes\database\pdo\connection.php on line 223
+ERROR - 2018-09-21 16:27:53 --> 42000 - SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'fu_room_posts_types' with query: "SELECT * FROM `fu_room_posts_types` RIGHT OUTER JOIN `fu_room_posts_types` WHERE `room_id` = '44' AND `lang_code` = 'vi'" in C:\xampp\htdocs\fu_hotel\fuel\core\classes\database\pdo\connection.php on line 223
+ERROR - 2018-09-21 16:28:17 --> 42000 - SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'fu_room_posts_types' with query: "SELECT * FROM `fu_room_posts_types` JOIN `fu_room_posts_types` WHERE `room_id` = '44' AND `lang_code` = 'vi'" in C:\xampp\htdocs\fu_hotel\fuel\core\classes\database\pdo\connection.php on line 223
+ERROR - 2018-09-21 16:29:23 --> Warning - Missing argument 3 for Fuel\Core\Database_Query_Builder_Select::on(), called in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 270 and defined in C:\xampp\htdocs\fu_hotel\fuel\core\classes\database\query\builder\select.php on line 161
+ERROR - 2018-09-21 16:30:03 --> Notice - Undefined index: lang in C:\xampp\htdocs\fu_hotel\fuel\cms\themes\backend\views\modules\room\_form.php on line 118
+ERROR - 2018-09-21 16:30:18 --> Warning - Missing argument 1 for Fuel\Core\Database_Result::get(), called in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 272 and defined in C:\xampp\htdocs\fu_hotel\fuel\core\classes\database\result.php on line 193
+ERROR - 2018-09-21 16:30:24 --> Notice - Undefined index: lang in C:\xampp\htdocs\fu_hotel\fuel\cms\themes\backend\views\modules\room\_form.php on line 118
+ERROR - 2018-09-21 16:30:30 --> Notice - Undefined index: lang in C:\xampp\htdocs\fu_hotel\fuel\cms\themes\backend\views\modules\room\_form.php on line 118
+ERROR - 2018-09-21 16:31:00 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266
+ERROR - 2018-09-21 16:31:10 --> Error - Invalid Model instance added to relations in this model. in C:\xampp\htdocs\fu_hotel\fuel\packages\orm\classes\hasmany.php on line 138
+ERROR - 2018-09-21 16:31:36 --> Error - Invalid Model instance added to relations in this model. in C:\xampp\htdocs\fu_hotel\fuel\packages\orm\classes\hasmany.php on line 138
+ERROR - 2018-09-21 16:31:39 --> Error - Invalid Model instance added to relations in this model. in C:\xampp\htdocs\fu_hotel\fuel\packages\orm\classes\hasmany.php on line 138
+ERROR - 2018-09-21 16:31:45 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266
+ERROR - 2018-09-21 16:31:49 --> Error - Invalid Model instance added to relations in this model. in C:\xampp\htdocs\fu_hotel\fuel\packages\orm\classes\hasmany.php on line 138
+ERROR - 2018-09-21 16:32:01 --> Error - Relation "room_types" was not found in the model. in C:\xampp\htdocs\fu_hotel\fuel\packages\orm\classes\query.php on line 930
+ERROR - 2018-09-21 16:32:16 --> Error - Invalid Model instance added to relations in this model. in C:\xampp\htdocs\fu_hotel\fuel\packages\orm\classes\hasmany.php on line 138
+ERROR - 2018-09-21 16:32:26 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266
+ERROR - 2018-09-21 16:32:30 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266
+ERROR - 2018-09-21 16:32:35 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266
+ERROR - 2018-09-21 16:32:39 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266
+ERROR - 2018-09-21 16:32:44 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266
+ERROR - 2018-09-21 16:32:45 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266
+ERROR - 2018-09-21 16:32:49 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266
+ERROR - 2018-09-21 16:35:54 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266
+ERROR - 2018-09-21 16:35:58 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266
+ERROR - 2018-09-21 16:36:06 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266
+ERROR - 2018-09-21 16:36:11 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266
+ERROR - 2018-09-21 16:44:10 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266
+ERROR - 2018-09-21 16:46:04 --> Notice - Undefined variable: _FILE in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 451
+ERROR - 2018-09-21 16:46:31 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266
+ERROR - 2018-09-21 16:48:33 --> Notice - Undefined index: type_data_update_9 in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 451
+ERROR - 2018-09-21 16:48:36 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266
+ERROR - 2018-09-21 16:56:08 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266
+ERROR - 2018-09-21 16:56:27 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266
+ERROR - 2018-09-21 16:56:34 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266
+ERROR - 2018-09-21 16:57:04 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266
+ERROR - 2018-09-21 16:57:13 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266
+ERROR - 2018-09-21 16:58:00 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266
+ERROR - 2018-09-21 16:58:54 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266
+ERROR - 2018-09-21 16:59:18 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266
+ERROR - 2018-09-21 17:24:05 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266
+ERROR - 2018-09-21 17:29:00 --> Error - Property "one" not found for Room\Model_Room_Image. in C:\xampp\htdocs\fu_hotel\fuel\packages\orm\classes\model.php on line 1258
+ERROR - 2018-09-21 17:30:33 --> Fatal Error - Method Fuel\Core\View::__toString() must not throw an exception, caught ParseError: syntax error, unexpected '?>' in C:\xampp\htdocs\fu_hotel\fuel\cms\themes\backend\layouts\template.html on line 0
+ERROR - 2018-09-21 17:30:35 --> Fatal Error - Method Fuel\Core\View::__toString() must not throw an exception, caught ParseError: syntax error, unexpected '?>' in C:\xampp\htdocs\fu_hotel\fuel\cms\themes\backend\layouts\template.html on line 0
+ERROR - 2018-09-21 17:30:37 --> Fatal Error - Method Fuel\Core\View::__toString() must not throw an exception, caught ParseError: syntax error, unexpected '?>' in C:\xampp\htdocs\fu_hotel\fuel\cms\themes\backend\layouts\template.html on line 0
+ERROR - 2018-09-21 17:30:44 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266
+ERROR - 2018-09-21 17:30:52 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266
+ERROR - 2018-09-21 17:32:37 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266
+ERROR - 2018-09-21 17:33:00 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266
+ERROR - 2018-09-21 17:33:18 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266
+ERROR - 2018-09-21 17:33:24 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266
+ERROR - 2018-09-21 17:37:40 --> Warning - Missing argument 1 for Fuel\Core\Database_Result::get(), called in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 391 and defined in C:\xampp\htdocs\fu_hotel\fuel\core\classes\database\result.php on line 193
+ERROR - 2018-09-21 17:38:47 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266
+ERROR - 2018-09-21 17:39:10 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266
+ERROR - 2018-09-21 17:39:56 --> Error - syntax error, unexpected ')' in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 394
+ERROR - 2018-09-21 17:40:06 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266
+ERROR - 2018-09-21 17:40:11 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266
+ERROR - 2018-09-21 17:40:22 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\room.php on line 266

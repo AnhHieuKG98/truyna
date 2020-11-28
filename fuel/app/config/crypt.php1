@@ -1,0 +1,7 @@
+<?php
+return array (
+  'sodium' => 
+  array (
+    'cipherkey' => 'f22c04f1be15ccde89d6e8111124e1d8013d640bf55139fbe8e9546ef309a893',
+  ),
+);

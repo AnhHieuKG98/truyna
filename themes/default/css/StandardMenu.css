@@ -1,0 +1,49 @@
+﻿#dnnMenu{}
+#dnnMenu .topLevel{height:30px;position:relative;margin:0;padding:0px;background-color: #03a724;}
+#dnnMenu .topLevel li
+{
+    list-style-type: none;
+    position: relative;
+    border-left: 1px solid #23bc18;
+    border-right: 1px solid #05841f;
+    float: left;
+    font-weight: bold !important;
+    line-height: 30px;
+    vertical-align: middle;
+}
+#dnnMenu .topLevel li:hover
+{
+ background-color: #05841f;
+}
+#dnnMenu .topLevel li.selected
+{
+ background-color: #05841f;
+}
+
+#dnnMenu .topLevel li a{display:block;color:#fff;line-height:30px;}
+#dnnMenu .topLevel li.hover a, #dnnMenu .topLevel li a:hover{text-decoration:none;color:#fff;}
+
+#dnnMenu .topLevel li a div{display:block;line-height:30px;padding:0px 5px;font-size:11px;color:#fff;font-weight:bold}
+
+#dnnMenu .subLevel{display:none;position:absolute;width:auto;margin:0;padding:0;z-index:1210;}
+#dnnMenu .topLevel li.hover .subLevel{display:block;white-space:nowrap;}
+#dnnMenu .topLevel li:hover .subLevel{display:block !important;white-space:nowrap;}
+#dnnMenu .subLevel ul{margin:0;padding:0;position:relative;z-index:1200;background-color: #03a724;}
+#dnnMenu .subLevel li
+{
+    float: none;
+    clear: both;
+    width: auto;
+    border-bottom-color: #05841f;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-top-color: #23bc18;
+    border-top-style: solid;
+    border-top-width: 1px;   
+    font-weight: bold !important;
+    text-align: left !important;
+    width:180px;
+}
+#dnnMenu .subLevel li.item a{}
+#dnnMenu .subLevel li.item a div{display:block;line-height:30px;padding:0px 10px;font-size:11px;}
+

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title><?php echo $title; ?></title>
+	<?php #echo Asset::css('bootstrap.css'); ?>
+  <?php #echo Asset::css('maps/jquery-jvectormap-2.0.3.css'); ?>
+
+  <!-- Bootstrap vendors -->
+  <?php echo Asset::css('bootstrap/dist/css/bootstrap.min.css'); ?>
+
+  <!-- Font Awesome vendors -->
+  <?php echo Asset::css('font-awesome/css/font-awesome.min.css'); ?>
+  <!-- NProgress vendors -->
+  <?php echo Asset::css('nprogress/nprogress.css'); ?>
+  <!-- iCheck vendors -->
+  <?php echo Asset::css('iCheck/skins/flat/green.css'); ?>
+
+  <!-- bootstrap-progressbar vendors -->
+  <?php echo Asset::css('bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css'); ?>
+  <!-- JQVMap vendors -->
+  <?php echo Asset::css('jqvmap/dist/jqvmap.min.css'); ?>
+  <!-- bootstrap-daterangepicker vendors -->
+  <?php echo Asset::css('bootstrap-daterangepicker/daterangepicker.css'); ?>
+
+  <!-- Custom Theme Style build -->
+  <?php echo Asset::css('custom.min.css'); ?>
+
+  <?php #css by me ?>
+  <?php echo Asset::css('style.css'); ?>
+
+  <?php  #Form ?>
+  <!-- Switchery vendors-->
+  <?php echo Asset::css('switchery/dist/switchery.min.css'); ?>
+
+  <?php
+  if(isset($partials['css_head'])){
+    echo $partials['css_head'];
+  }
+  ?>
+
+  <!-- jQuery vendors-->
+  <?php echo Asset::js('jquery/dist/jquery.min.js'); ?>
+  <?php
+  if(isset($partials['js_head'])){
+    echo $partials['js_head'];
+  }
+  ?>
+</head>
+<body class="nav-md">
+  <div class="container body">
+    <div class="main_container">
+
+      <!-- LEFT SIDEBAR -->
+      <?php echo $partials['sidebar'];?>
+      <!--//END LEFT SIDEBAR -->
+
+      <!-- top navigation -->
+        <div class="top_nav">
+          <div class="nav_menu">
+            <nav>
+              <div class="nav toggle">
+                <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+              </div>
+              
+              <?php if ($current_user): ?>
+              <ul class="nav navbar-nav navbar-right">
+                
+                <li class="">
+                  <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                    <img src="images/img.jpg" alt=""><?php echo $current_user->username ?>
+                    <span class=" fa fa-angle-down"></span>
+                  </a>
+                  <ul class="dropdown-menu dropdown-usermenu pull-right">
+                    <li><a href="<?php echo Uri::create('admin/profile');?>"> <?php echo l("Profile");?></a></li>
+                    <!--<li><a href="<?php echo Uri::create('admin/remove_cache?redirect='.\Uri::current());?>"><i class="fa fa-trash pull-right"></i> <?php echo l("Remove cache")?></a></li>-->
+                    <li><a href="<?php echo Uri::create('admin/logout');?>"><i class="fa fa-sign-out pull-right"></i> <?php echo l("Log Out")?></a></li>
+                  </ul>
+                </li>
+
+                <li role="presentation" class="dropdown">
+                  <?php 
+                    #echo $lang_current;
+                    $langs = array(
+                      "vi"  => l("Vietnamese"),
+                      "en"  => l("English"),
+                    );
+                    
+                  ?>
+                  <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                      
+                    <span class=""><?php echo $langs[$lang_current];?></span> <span class=" fa fa-angle-down"></span>
+                  </a>
+                  <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
+                    <li><a href="?lang_code=en"><?php echo l("English")?></a></li>
+                    <li><a href="?lang_code=vi"><?php echo l("Vietnamese")?></a></li>
+                  </ul>
+                </li>
+              </ul>
+              <?php endif;?>
+            </nav>
+          </div>
+        </div>
+        <!-- END /top navigation -->
+
+
+      <!-- page content -->
+      <div class="right_col" role="main">
+        <div class="col-md-12">
+
+<?php if (Session::get_flash('success')): ?>
+				<div class="alert alert-success alert-dismissable">
+					<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+					<p>
+					<?php echo implode('</p><p>', (array) Session::get_flash('success')); ?>
+					</p>
+				</div>
+<?php endif; ?>
+<?php if (Session::get_flash('error')): ?>
+				<div class="alert alert-danger alert-dismissable">
+					<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+					<p>
+					<?php echo implode('</p><p>', (array) Session::get_flash('error')); ?>
+					</p>
+				</div>
+<?php endif; ?>
+			</div>
+
+        <?php echo $content; ?>
+      </div>
+      <!-- END : page content -->
+
+
+
+      <!-- footer content -->
+      <footer>
+        <p>Công ty TNHH Ứng Dụng Thiên Minh </p>
+        <p>www.thienminhtech.com  - Hotline : 0944551086 </p>
+
+        <div class="pull-right">
+          TM - Bootstrap Admin Template by <a href="http://thienminhads.com">thienminhads.com</a>
+        </div>
+        <div class="clearfix"></div>
+        <p class="pull-right">Page rendered in {exec_time}s using {mem_usage}mb of memory.</p>
+        <p>
+          <a href="http://fuelphp.com">FuelPHP</a> is released under the MIT license.<br>
+          <small>Version: <?php echo l(Fuel::VERSION); ?></small>
+        </p>
+      </footer>
+      <!-- /footer content -->
+
+    </div><!--//.main_container-->
+	</div><!--//.container.body-->
+
+
+
+
+   <!-- jQuery vendors-->
+   <?php #echo Asset::js('jquery/dist/jquery.min.js'); ?>
+  <!-- Bootstrap vendors-->
+  <?php echo Asset::js('bootstrap/dist/js/bootstrap.min.js'); ?>
+  <!-- FastClick vendors-->
+  <?php echo Asset::js('fastclick/lib/fastclick.js'); ?>
+  <!-- NProgress vendors-->
+  <?php echo Asset::js('nprogress/nprogress.js'); ?>
+  <!-- Chart.js vendors-->
+  <?php echo Asset::js('Chart.js/dist/Chart.min.js'); ?>
+  <!-- gauge.js vendors-->
+  <?php echo Asset::js('gauge.js/dist/gauge.min.js'); ?>
+  <!-- bootstrap-progressbar vendors-->
+  <?php echo Asset::js('bootstrap-progressbar/bootstrap-progressbar.min.js'); ?>
+  <!-- iCheck vendors-->
+  <?php echo Asset::js('iCheck/icheck.min.js'); ?>
+  <!-- Skycons vendors-->
+  <?php echo Asset::js('skycons/skycons.js'); ?>
+  <!-- Flot vendors-->
+  <?php echo Asset::js('Flot/jquery.flot.js'); ?>
+  <?php echo Asset::js('Flot/jquery.flot.pie.js'); ?>
+  <?php echo Asset::js('Flot/jquery.flot.time.js'); ?>
+  <?php echo Asset::js('Flot/jquery.flot.stack.js'); ?>
+  <?php echo Asset::js('Flot/jquery.flot.resize.js'); ?>
+  <!-- Flot plugins vendors-->
+  <?php echo Asset::js('flot.orderbars/js/jquery.flot.orderBars.js'); ?>
+  <?php echo Asset::js('flot-spline/js/jquery.flot.spline.min.js'); ?>
+  <?php echo Asset::js('flot.curvedlines/curvedLines.js'); ?>
+  <!-- DateJS vendors-->
+  <?php echo Asset::js('DateJS/build/date.js'); ?>
+  <!-- JQVMap vendors-->
+  <?php echo Asset::js('jqvmap/dist/jquery.vmap.js'); ?>
+  <?php echo Asset::js('jqvmap/dist/maps/jquery.vmap.world.js'); ?>
+  <?php echo Asset::js('jqvmap/examples/js/jquery.vmap.sampledata.js'); ?>
+  <!-- bootstrap-daterangepicker vendors -->
+  <?php echo Asset::js('moment/min/moment.min.js'); ?>
+  <?php echo Asset::js('bootstrap-daterangepicker/daterangepicker.js'); ?>
+
+  <!-- Custom Theme Scripts build -->
+  <?php echo Asset::js('custom.min.js'); ?>
+
+  <?php #Form ?>
+  <!-- Switchery vendors -->
+  <?php echo Asset::js('switchery/dist/switchery.min.js'); ?>
+
+
+  <?php #echo Asset::js('bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js'); ?>
+  <?php echo Asset::js('bootstrap-datepicker/js/bootstrap-datepicker.min.js'); ?>
+
+
+
+  <!--JS footer -->
+  <?php
+  if(isset($partials['js_footer'])){
+    echo $partials['js_footer'];
+  }
+  ?>
+</body>
+</html>

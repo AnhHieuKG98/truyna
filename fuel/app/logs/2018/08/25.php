@@ -1,0 +1,47 @@
+<?php defined('COREPATH') or exit('No direct script access allowed'); ?>
+
+ERROR - 2018-08-25 00:56:31 --> Notice - Undefined variable: title in C:\xampp\htdocs\fu_cms\fuel\cms\themes\backend\layouts\template.html on line 10
+ERROR - 2018-08-25 00:57:40 --> Notice - Undefined variable: title in C:\xampp\htdocs\fu_cms\fuel\cms\themes\backend\layouts\template.html on line 10
+ERROR - 2018-08-25 00:57:42 --> Notice - Undefined variable: title in C:\xampp\htdocs\fu_cms\fuel\cms\themes\backend\layouts\template.html on line 10
+ERROR - 2018-08-25 00:58:07 --> Notice - Undefined variable: title in C:\xampp\htdocs\fu_cms\fuel\cms\themes\backend\layouts\template.html on line 10
+ERROR - 2018-08-25 00:58:34 --> Notice - Undefined variable: categories_tree in C:\xampp\htdocs\fu_cms\fuel\cms\modules\admin\views\admin\shop\product\option\index.php on line 39
+ERROR - 2018-08-25 00:59:31 --> Notice - Undefined variable: pagination in C:\xampp\htdocs\fu_cms\fuel\cms\modules\admin\views\admin\shop\product\option\index.php on line 68
+ERROR - 2018-08-25 01:00:04 --> Notice - Undefined variable: title in C:\xampp\htdocs\fu_cms\fuel\cms\themes\backend\layouts\template.html on line 10
+ERROR - 2018-08-25 01:06:07 --> Notice - Undefined variable: title in C:\xampp\htdocs\fu_cms\fuel\cms\themes\backend\layouts\template.html on line 10
+ERROR - 2018-08-25 01:11:03 --> Notice - Undefined variable: title in C:\xampp\htdocs\fu_cms\fuel\cms\themes\backend\layouts\template.html on line 10
+ERROR - 2018-08-25 01:19:10 --> 23000 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'product_id' cannot be null with query: "INSERT INTO `fu_shop_products_options` (`product_id`, `option_type`, `inventory`, `status`, `position`, `value`, `option_name`, `option_text`, `description`) VALUES (null, null, null, null, null, null, null, null, null)" in C:\xampp\htdocs\fu_cms\fuel\core\classes\database\pdo\connection.php on line 223
+ERROR - 2018-08-25 01:19:49 --> Notice - Undefined variable: model in C:\xampp\htdocs\fu_cms\fuel\cms\modules\admin\classes\controller\shop\product\option.php on line 53
+ERROR - 2018-08-25 01:20:14 --> Notice - Undefined variable: title in C:\xampp\htdocs\fu_cms\fuel\cms\themes\backend\layouts\template.html on line 10
+ERROR - 2018-08-25 01:54:24 --> Error - Property "title" not found for Shop\Model_Shop_Product_Option. in C:\xampp\htdocs\fu_cms\fuel\packages\orm\classes\model.php on line 1258
+ERROR - 2018-08-25 02:00:43 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_cms\fuel\cms\modules\admin\views\admin\shop\product\option\edit.php on line 1
+ERROR - 2018-08-25 02:12:38 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_cms\fuel\cms\modules\admin\views\admin\shop\product\option\edit.php on line 1
+ERROR - 2018-08-25 02:46:57 --> Notice - Undefined variable: option_type_select in C:\xampp\htdocs\fu_cms\fuel\cms\modules\admin\views\admin\shop\product\option\_form.php on line 11
+ERROR - 2018-08-25 02:47:56 --> Notice - Undefined variable: option_type_select in C:\xampp\htdocs\fu_cms\fuel\cms\modules\admin\views\admin\shop\product\option\_form.php on line 11
+ERROR - 2018-08-25 02:48:31 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_cms\fuel\cms\modules\admin\views\admin\shop\product\option\edit.php on line 1
+ERROR - 2018-08-25 02:48:40 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_cms\fuel\cms\modules\admin\views\admin\shop\product\option\edit.php on line 1
+ERROR - 2018-08-25 02:49:28 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_cms\fuel\cms\modules\admin\views\admin\shop\product\option\edit.php on line 1
+ERROR - 2018-08-25 02:49:48 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_cms\fuel\cms\modules\admin\views\admin\shop\product\option\edit.php on line 1
+ERROR - 2018-08-25 02:51:02 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_cms\fuel\cms\modules\admin\views\admin\shop\product\option\edit.php on line 1
+ERROR - 2018-08-25 02:51:06 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_cms\fuel\cms\modules\admin\views\admin\shop\product\option\edit.php on line 1
+ERROR - 2018-08-25 02:51:11 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_cms\fuel\cms\modules\admin\views\admin\shop\product\option\edit.php on line 1
+ERROR - 2018-08-25 02:55:55 --> Fatal Error - Method Fuel\Core\View::__toString() must not throw an exception, caught TypeError: Argument 3 passed to Fuel\Core\Form::input() must be of the type array, string given, called in C:\xampp\htdocs\fu_cms\fuel\cms\modules\admin\views\admin\shop\product\option\_form.php on line 79 in C:\xampp\htdocs\fu_cms\fuel\cms\themes\backend\layouts\template.html on line 0
+ERROR - 2018-08-25 02:56:55 --> Fatal Error - Method Fuel\Core\View::__toString() must not throw an exception, caught TypeError: Argument 3 passed to Fuel\Core\Form::input() must be of the type array, string given, called in C:\xampp\htdocs\fu_cms\fuel\cms\modules\admin\views\admin\shop\product\option\_form.php on line 80 in C:\xampp\htdocs\fu_cms\fuel\cms\themes\backend\layouts\template.html on line 0
+ERROR - 2018-08-25 02:58:58 --> Fatal Error - Method Fuel\Core\View::__toString() must not throw an exception, caught ParseError: syntax error, unexpected ';', expecting ',' or ')' in C:\xampp\htdocs\fu_cms\fuel\cms\themes\backend\layouts\template.html on line 0
+ERROR - 2018-08-25 03:00:04 --> Fatal Error - Method Fuel\Core\View::__toString() must not throw an exception, caught ParseError: syntax error, unexpected ';', expecting ',' or ')' in C:\xampp\htdocs\fu_cms\fuel\cms\themes\backend\layouts\template.html on line 0
+ERROR - 2018-08-25 03:00:16 --> Fatal Error - Method Fuel\Core\View::__toString() must not throw an exception, caught ParseError: syntax error, unexpected ';', expecting ',' or ')' in C:\xampp\htdocs\fu_cms\fuel\cms\themes\backend\layouts\template.html on line 0
+ERROR - 2018-08-25 03:00:31 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_cms\fuel\cms\modules\admin\views\admin\shop\product\option\edit.php on line 1
+ERROR - 2018-08-25 03:00:40 --> Fatal Error - Method Fuel\Core\View::__toString() must not throw an exception, caught ParseError: syntax error, unexpected ';', expecting ',' or ')' in C:\xampp\htdocs\fu_cms\fuel\cms\themes\backend\layouts\template.html on line 0
+ERROR - 2018-08-25 03:01:05 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_cms\fuel\cms\modules\admin\views\admin\shop\product\option\edit.php on line 1
+ERROR - 2018-08-25 03:01:34 --> Fatal Error - Method Fuel\Core\View::__toString() must not throw an exception, caught ParseError: syntax error, unexpected ';', expecting ',' or ')' in C:\xampp\htdocs\fu_cms\fuel\cms\themes\backend\layouts\template.html on line 0
+ERROR - 2018-08-25 03:01:59 --> Fatal Error - Method Fuel\Core\View::__toString() must not throw an exception, caught ParseError: syntax error, unexpected ';', expecting ',' or ')' in C:\xampp\htdocs\fu_cms\fuel\cms\themes\backend\layouts\template.html on line 0
+ERROR - 2018-08-25 03:02:06 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_cms\fuel\cms\modules\admin\views\admin\shop\product\option\edit.php on line 1
+ERROR - 2018-08-25 03:03:40 --> Fatal Error - Method Fuel\Core\View::__toString() must not throw an exception, caught ParseError: syntax error, unexpected ';', expecting ',' or ')' in C:\xampp\htdocs\fu_cms\fuel\cms\themes\backend\layouts\template.html on line 0
+ERROR - 2018-08-25 03:04:00 --> Fatal Error - Method Fuel\Core\View::__toString() must not throw an exception, caught ParseError: syntax error, unexpected ';', expecting ',' or ')' in C:\xampp\htdocs\fu_cms\fuel\cms\themes\backend\layouts\template.html on line 0
+ERROR - 2018-08-25 03:04:06 --> Fatal Error - Method Fuel\Core\View::__toString() must not throw an exception, caught ParseError: syntax error, unexpected ';', expecting ',' or ')' in C:\xampp\htdocs\fu_cms\fuel\cms\themes\backend\layouts\template.html on line 0
+ERROR - 2018-08-25 03:04:10 --> Fatal Error - Method Fuel\Core\View::__toString() must not throw an exception, caught ParseError: syntax error, unexpected ';', expecting ',' or ')' in C:\xampp\htdocs\fu_cms\fuel\cms\themes\backend\layouts\template.html on line 0
+ERROR - 2018-08-25 03:04:30 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_cms\fuel\cms\modules\admin\views\admin\shop\product\option\edit.php on line 1
+ERROR - 2018-08-25 03:05:40 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_cms\fuel\cms\modules\admin\views\admin\shop\product\option\edit.php on line 1
+ERROR - 2018-08-25 03:08:38 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_cms\fuel\cms\modules\admin\views\admin\shop\product\option\edit.php on line 1
+ERROR - 2018-08-25 03:10:32 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_cms\fuel\cms\modules\admin\views\admin\shop\product\option\edit.php on line 1
+ERROR - 2018-08-25 03:11:31 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_cms\fuel\cms\modules\admin\views\admin\shop\product\option\edit.php on line 1
+ERROR - 2018-08-25 03:12:23 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_cms\fuel\cms\modules\admin\views\admin\shop\product\option\edit.php on line 1

@@ -1,0 +1,10 @@
+<script>
+  var public_path = '<?php echo Uri::base();?>';
+</script>
+<?php 
+if(!empty($assets_js)){
+foreach($assets_js as $j){
+  echo Asset::js($j,array(),null,false);
+}
+}
+?>

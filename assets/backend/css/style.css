@@ -1,0 +1,92 @@
+/* css by Giang */
+.table-responsive img{
+  max-width:150px;
+}
+.dropdown button{
+  background:none;
+  border:none;
+  padding: 3px 20px;
+  color: #5A738E;
+  white-space: nowrap;
+  display: block;
+  clear: both;
+  width: 100%;
+  text-align: left;
+}
+.dropdown-menu>li>button:focus, .dropdown-menu>li>button:hover {
+  color: #262626;
+  text-decoration: none;
+  background-color: #f5f5f5;
+}
+.ajax-mask{
+  display:none;
+}
+.ajax-mask.ajax-waiting{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 99999;
+  background: rgba(23, 45, 68, 0.5);
+  top: 0;
+  left: 0;
+  display:block;
+}
+.ajax-mask.ajax-waiting #image-loading-ajax{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+.tm-status-h .actions-icon{
+  opacity:.3;
+}
+.tm-status-h .dropdown-toggle{
+  background:#ddd;
+}
+form .dropzone .dz-preview .dz-image{
+  width:100px;
+  height:100px;
+}
+
+.box-upload label{
+  color: #f1e5e6;
+  background-color: #012f5c;
+  max-width: 80%;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  padding: 0.625rem 1.25rem;
+}
+.box-upload + label {
+  color: #f1e5e6;
+  background-color: #012f5c;
+}
+.box-upload label svg {
+  width: 2em;
+  height: 2em;
+  vertical-align: middle;
+  fill: currentColor;
+  margin-top: -0.25em;
+  margin-right: 0.25em;
+}
+input[type=file] {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+input[type=file]:before{
+  
+}
+
+
+@media screen and (min-width: 768px){}
+  .tmidas_jumbotron .h1, .tmidas_jumbotron h1 {
+      font-size: 35px;
+  }
+}

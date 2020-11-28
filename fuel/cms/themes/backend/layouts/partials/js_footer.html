@@ -1,0 +1,309 @@
+<script>
+  var public_path = '<?php echo Uri::base();?>';
+</script>
+<?php
+if(!empty($assets_js)){
+foreach($assets_js as $j){
+  echo Asset::js($j);
+}
+}
+?>
+<!-- modal confirm DELETE -->
+<div class="modal fade delete-modal-sm" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel2">Lưu ý !</h4>
+      </div>
+      <div class="modal-body">
+        <h4>Xác nhận xoá</h4>
+        <p>Thao tác này sẽ xoá bài viết khỏi cơ sở dữ liệu.</p>
+        <p>Nếu chắc chắn bạn có thể chọn Delete. Bỏ qua chọn Cancel</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+        <a class="btn btn-danger btn-ok" href="">Delete</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+$('.delete-modal-sm').on('show.bs.modal', function(e) {
+    $(this).find('.btn-ok').attr('href', $(e.relatedTarget).data('href'));
+});
+</script>
+<!-- // modal confirm DELETE -->
+
+<script>
+/*
+
+$('#editor').dialogelfinder({
+        url : public_path+'assets/libs/elfinder/php/connector.minimal.php',
+        getFileCallback: function(file) {}
+});
+
+*/
+$('.elfinder_button').on('click', function() {
+  var elfinder_input = $(this).parents('.image-upload-item').find('.elfinder-input').addClass("ne");
+  var elfinder_input_image = $(this).parents('.image-upload-item').find('.elfinder-image-input');
+  var elfinder_remove_image = $(this).parents('.image-upload-item').find('.remove-image');
+   //elfinder_input_image.remove();
+    $('<div id="editor-popup" />').dialogelfinder({
+        resizable: false,
+        width : '80%',
+        url : public_path+'assets/libs/elfinder/php/connector.input.php',
+        commandsOptions: {
+            getfile: {
+
+            }
+        },
+        getFileCallback: function(file) {
+            $('#editor-popup').dialogelfinder('close');
+            //$('#editor-popup').closest('.elfinder').val(file.path);
+
+
+            elfinder_input.val(file.url);
+            $src = elfinder_input_image.attr('data-src')+file.url;
+            elfinder_input_image.attr('src',$src);
+            elfinder_remove_image.removeClass("hidden");
+        }
+    });
+});
+</script>
+
+<?php  #AJAX ?>
+<?php  #AJAX change status in table  ?>
+<div class="ajax-mask" /><?php echo Asset::img("loading.gif",array("id"=>"image-loading-ajax"));?></div>
+<script>
+  var image_loading = '<?php echo Asset::img("loading.gif",array("id"=>"image-loading-ajax"));?>';
+  $("[data-ajax-status]").click(function(){
+    $('.ajax-mask').addClass('ajax-waiting');
+    $.ajax({
+      url: "<?php echo Uri::create("ajax/status")?>",
+      data : {
+        "table"   : $(this).data("table"),
+        "id"      : $(this).data("id"),
+        "status"  : $(this).data("value"),
+      },
+      type: "post",
+      dataType : "json",
+      success: function(data){
+        $("#"+data.tr_id_update).removeClass(data.tr_class_old).addClass(data.tr_class_new);
+        $('.ajax-mask').removeClass('ajax-waiting');
+      }
+    });
+  });
+</script>
+
+<!-- Upload nhiều hình ảnh -->
+<?php if(isset($object_id)):?>
+<script>
+
+ Dropzone.options.myDropzone = true;
+
+//đua file đã có vào DropZone
+ Dropzone.options.myDropzone = {
+    init: function() {
+      thisDropzone = this;
+      thisDropzone.options.addRemoveLinks = true;
+      $.ajax({
+        url:'<?php echo Uri::create('supload/get_images')?>',
+        data:{object_id:<?php echo  $object_id?>,object_type:'<?php echo  $object_type?>',type:'M'},
+        type:'get',
+        dataType:'json',
+        success:function(data){
+          $.each(data, function(key,value){
+            //value.image_path
+            var mockFile = { name: value.alt,size:value.file_size,image_id:value.id};
+           // console.log(value);
+            thisDropzone.options.addedfile.call(thisDropzone, mockFile);
+            thisDropzone.options.thumbnail.call(thisDropzone, mockFile, value.thumb);
+            $('.append_dropfile #append_upload_image').append($('.dz-preview').addClass("dz-complete"));
+          });
+          $(".dz-remove").on("click", function (e) {
+
+              return false
+          });
+        }
+      });
+
+
+
+      this.on("addedfile", function(file) {
+        $('.append_dropfile #append_upload_image').append($('.dz-preview'));
+
+
+
+
+      });
+      this.on("removedfile", function(file) {
+        var comf = confirm('Bạn chắc chắn muốn xoá ?');
+        if(comf){
+          $image_id = file.image_id;
+          $.ajax({
+            url:'<?php echo Uri::create('simage/delete');?>/'+$image_id,
+            type:'get',
+            success:function(){
+            }
+          });
+        }
+      });
+
+      $('.append_dropfile #append_upload_image').append($('.dz-default'));
+
+      this.on("complete", function(file) {
+        return true;
+      });
+    },
+    addRemoveLinks: true,
+    success: function(file, response){
+      return false;
+
+    }
+  };
+
+
+ Dropzone.options.myAwesomeDropzone = false;
+ Dropzone.autoDiscover = false;
+
+$(function() {
+  var myDropzone = new Dropzone("#my-dropzone",{url: '<?php echo Uri::create('supload/:some',array("some"=>"index","and"=>$object_id),array("id"=>":and"));?>',data:{"id":"<?php echo $object_id;?>"},dataType:'json'});
+  //dropzone
+  //console.log(myDropzone);
+
+
+/*
+$.ajax({
+        url:'<?php echo Uri::create('supload/get_images')?>',
+        data:{object_id:<?php echo  $object_id?>,object_type:'<?php echo  $object_type?>',type:'M'},
+        type:'get',
+        dataType:'json',
+        success:function(data){
+          $.each(data, function(key,value){
+            var mockFile = { name: value.image_path,size:value.file_size,image_id:value.image_id};
+            myDropzone.options.addedfile.call(myDropzone, mockFile);
+            myDropzone.options.thumbnail.call(myDropzone, mockFile, value.thumb);
+            $('.append_dropfile #append_upload_image').append($('.dz-preview'));
+          });
+          $(".dz-remove").on("click", function (e) {
+
+              return false
+          });
+        }
+      });
+    //var file = {};
+    //myDropzone.addFile(file);
+
+    */
+
+
+//frmUpdate
+  Dropzone.options.frmUpdate = {
+    init: function() {
+      alert(11);
+      thisDropzone = this;
+      thisDropzone.options.addRemoveLinks = true;
+      $.ajax({
+        url:'<?php echo Uri::create('supload/get_images')?>',
+        data:{object_id:<?php echo  $object_id?>,object_type:'<?php echo  $object_type?>',type:'M'},
+        type:'get',
+        dataType:'json',
+        success:function(data){
+          $.each(data, function(key,value){
+            var mockFile = { name: value.image_path,size:value.file_size,image_id:value.image_id};
+            thisDropzone.options.addedfile.call(thisDropzone, mockFile);
+            thisDropzone.options.thumbnail.call(thisDropzone, mockFile, value.thumb);
+            $('.append_dropfile #append_upload_image').append($('.dz-preview'));
+          });
+          $(".dz-remove").on("click", function (e) {
+
+              return false
+          });
+        }
+      });
+
+
+
+      this.on("addedfile", function(file) {
+        $('.append_dropfile #append_upload_image').append($('.dz-preview'));
+
+
+
+
+      });
+      this.on("removedfile", function(file) {
+        var comf = confirm('Bạn chắc chắn muốn xoá ?');
+        if(comf){
+          $image_id = file.image_id;
+          $.ajax({
+            url:'<?php echo Uri::create('simages/delete');?>/'+$image_id,
+            type:'get',
+            success:function(){
+            }
+          });
+        }
+      });
+
+      $('.append_dropfile #append_upload_image').append($('.dz-default'));
+
+      this.on("complete", function(file) {
+        return true;
+      });
+    },
+    addRemoveLinks: true,
+    success: function(file, response){
+      return false;
+
+    }
+  };
+
+
+
+})
+
+$('.dz-remove').click(function(){
+  return false;
+});
+</script>
+<?php endif;?>
+
+<script>
+  $('.remove-image_a').click(function(){
+    $(this).siblings("img").remove();
+  });
+</script>
+
+<?php
+  $date_format = \Registry::get_setting("general.date_format");
+  if($date_format=="d/m/Y"){
+    $date_format = "dd/mm/yyyy";
+  }
+?>
+
+<script>
+
+
+  $(".datepicker-input").datepicker({
+    autoclose: true,
+    format: '<?php echo $date_format; ?>'
+
+  }).on('change', function(){
+      $('.datepicker').hide();
+  });
+  
+  
+  
+  $('.copy-setting').click(function(){
+    var copyText = $(this).data("code");
+    $('#copyTarget').val(copyText);
+    var copyText = document.getElementById("copyTarget");
+    copyText.select();
+    document.execCommand("copy");  
+  });
+  
+</script>

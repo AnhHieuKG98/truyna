@@ -1,0 +1,171 @@
+﻿.table-view{width:100%;border-collapse:collapse;}
+.table-view th {border:1px solid #ddd;padding:5px;text-align:center;white-space:nowrap; font-weight:bold;}
+.table-view td {border:1px solid #ddd;padding:3px;}
+
+.error{color:Red;width:100%;display:block;margin:3px;}
+.searchBoxPanel {margin-top:10px;margin-bottom:20px;}
+.count {margin-top:5px;margin-bottom:5px;display:block;}
+.dataPager{text-align:right;margin-top: 10px;}
+
+.table-detail{width:100%;border-collapse:collapse;}
+.table-detail td {border:1px solid #ddd;padding:3px;}
+.table-detail th {border:1px solid #ddd;padding:3px;background-color:#efefef; font-weight:normal;text-align:left;}
+
+.noborder {border:none !important;font-size:16pt;font-weight:bold;}
+.anh-truyna {width:160px;float:left;margin-right:5px;}
+.anh-truyna div {width:100%; text-align:center;}
+.anh-truyna div img {width:155px;margin-left:3px; margin-bottom:5px;border:1px solid #ddd;}
+
+.truyna-boxsmaill{clear:both; padding:5px;}
+.truyna-boxsmaill img{width:80px; height:80px; float:left;margin-right:3px;border:1px solid #ddd;}
+.truyna-boxsmaill div a{font-weight:bold;}
+
+.truyna-top {clear:both;margin-bottom:10px;margin-left:3px;}
+.truyna-top img{width:180px; float:left;margin-right:5px;border:1px solid #ddd;padding:2px;}
+.truyna-top h2{font-weight:bold;font-size:16pt; color:Red;}
+.truyna-top div {line-height:20px;}
+
+/*************************************************************************************************************************/
+#mycustomscroll {
+/* Typical fixed height and fixed width example */
+width: 260px;
+height: 350px;
+overflow: auto;
+/* IE overflow fix, position must be relative or absolute*/
+position: relative;
+margin: 0.3em auto;
+padding: 15px;
+}
+
+
+.fixedwidth {
+/* a wide div is used for creating horizontal scrollbars for demonstration purposes */
+width: 245px;
+height: auto;
+position: relative;
+color: black;
+padding: 1px;
+}
+
+/* Scroll Bar Master Styling Starts Here */
+/* All comments can be freely removed from the css */
+
+.scrollgeneric {line-height: 1px;font-size: 1px;position: absolute;top: 0; left: 0;}
+
+/* force fleXcroll to always display the vertical scrollbase */
+.vscrollerbase {
+visibility: visible !important;
+}
+/* fleXcroll adapts to this CSS setting and sets positions correctly */
+
+
+/* And style your scrollbar like you normally do */
+.vscrollerbase {
+width: 10px;
+background: #f4f5f9 url(images/basebarcaps_verticalbarbody11.png) 0px 0px repeat-y;
+}
+.vscrollerbar {
+width: 10px;
+background: #dddddd url(images/basebarcaps_verticalbarbody11.png) -15px 0px repeat-y;
+}
+.hscrollerbase {
+height: 10px;
+background: #D7EBDF url(images/horizontalbarbody_cornerjog111.png) 0px -15px repeat-x;
+}
+.hscrollerbar {
+height: 10px;
+background: #99CBCB url(images/horizontalbarbody_cornerjog11.png) 0px -30px repeat-x;
+}
+.vscrollerbar, .hscrollerbar {
+padding: 10px;
+z-index: 2;
+}
+.vscrollerbarbeg {
+background: url(images/basebarcaps_verticalbarbody11.png) -45px -30px no-repeat;
+width: 10px;
+height: 15px !important;
+}
+.vscrollerbarend {
+background: url(images/basebarcaps_verticalbarbody11.png) -45px 0px no-repeat;
+width: 10px;
+height: 10px;
+}
+.hscrollerbarbeg {
+background: url(images/basebarcaps_verticalbarbody11.png) -60px -15px no-repeat;
+height: 10px;
+width: 15px !important;
+}
+.hscrollerbarend {
+background: url(images/basebarcaps_verticalbarbody11.png) -30px -15px no-repeat;
+height: 10px;
+width: 10px;
+}
+.scrollerjogbox {
+width: 10px;
+height: 10px;
+top: auto; left: auto;
+bottom: 0px; right: 0px;
+background: #4E727C url(images/horizontalbarbody_cornerjog11.png) 0px 0px;
+}
+.vscrollerbasebeg {
+background: url(images/basebarcaps_verticalbarbody1122.png) -30px -30px no-repeat;
+width: 10px;
+height: 15px !important;
+}
+.vscrollerbaseend {
+background: url(images/basebarcaps_verticalbarbody222.png) -60px -30px no-repeat;
+height: 10px;
+width: 10px;
+}
+.hscrollerbasebeg {
+background: url(images/basebarcaps_verticalbarbody.png) -60px 0px no-repeat;
+height: 10px;
+width: 15px !important;
+}
+.hscrollerbaseend {
+height: 10px;
+width: 10px;
+background: url(images/basebarcaps_verticalbarbody.png) -30px 0px no-repeat;
+}
+.scrollerjogbox:hover {
+background: #5E828C url(images/basebarcaps_verticalbarbody.png) -45px -15px;
+}
+/* Scroll Bar Master Styling Ends Here */
+
+.pagination-right {
+  text-align: right;
+}
+.pagination ul {
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  display: inline-block;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+.pagination ul > li {
+  display: inline;
+  line-height: 20px;
+} 
+.pagination ul li.active a {
+  color: red !important;
+} 
+.pagination ul > li:first-child > a, .pagination ul > li:first-child > span {
+  border-bottom-left-radius: 4px;
+  border-left-width: 1px;
+  border-top-left-radius: 4px;
+}
+.pagination ul > li > a, .pagination ul > li > span {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background-color: #FFFFFF;
+  border-color: #DDDDDD;
+  border-image: none;
+  border-style: solid;
+  border-width: 1px 1px 1px 0;
+  float: left;
+  line-height: 20px;
+  padding: 4px 12px;
+  text-decoration: none;
+}

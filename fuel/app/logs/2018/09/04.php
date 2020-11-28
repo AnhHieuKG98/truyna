@@ -1,0 +1,207 @@
+<?php defined('COREPATH') or exit('No direct script access allowed'); ?>
+
+ERROR - 2018-09-04 08:08:25 --> 2002 - SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.  in C:\xampp\htdocs\fu_hotel\fuel\core\classes\database\pdo\connection.php on line 86
+ERROR - 2018-09-04 08:32:02 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 217
+ERROR - 2018-09-04 08:36:16 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 218
+ERROR - 2018-09-04 08:37:37 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 218
+ERROR - 2018-09-04 08:37:47 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 218
+ERROR - 2018-09-04 08:37:52 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 218
+ERROR - 2018-09-04 08:43:16 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 218
+ERROR - 2018-09-04 08:43:49 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 218
+ERROR - 2018-09-04 08:44:01 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 218
+ERROR - 2018-09-04 08:44:13 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 218
+ERROR - 2018-09-04 08:44:18 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 218
+ERROR - 2018-09-04 08:44:54 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 218
+ERROR - 2018-09-04 08:47:42 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 219
+ERROR - 2018-09-04 08:48:17 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 219
+ERROR - 2018-09-04 08:48:35 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\themes\backend\views\modules\page\category\edit.php on line 1
+ERROR - 2018-09-04 08:48:40 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\themes\backend\views\modules\page\category\edit.php on line 1
+ERROR - 2018-09-04 08:48:43 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\themes\backend\views\modules\page\category\edit.php on line 1
+ERROR - 2018-09-04 08:48:46 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\themes\backend\views\modules\page\category\edit.php on line 1
+ERROR - 2018-09-04 08:48:51 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 219
+ERROR - 2018-09-04 08:59:46 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 219
+ERROR - 2018-09-04 09:05:29 --> Error - Could not find asset: icon/pay11.png in C:\xampp\htdocs\fu_hotel\fuel\core\classes\asset\instance.php on line 413
+ERROR - 2018-09-04 09:07:00 --> Notice - Undefined variable: banners in C:\xampp\htdocs\fu_hotel\fuel\cms\themes\default\views\layouts\default.php on line 12
+ERROR - 2018-09-04 09:14:24 --> Error - Class 'Seo\Model_Seo' not found in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\page\classes\controller\page.php on line 22
+ERROR - 2018-09-04 09:16:00 --> Notice - Undefined variable: id in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\page\classes\controller\page.php on line 30
+ERROR - 2018-09-04 09:17:24 --> Error - syntax error, unexpected ')' in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\page\classes\controller\page.php on line 40
+ERROR - 2018-09-04 09:19:02 --> 42000 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `page_id` = '3'' at line 1 with query: "SELECT `page_form` WHERE `page_id` = '3'" in C:\xampp\htdocs\fu_hotel\fuel\core\classes\database\pdo\connection.php on line 223
+ERROR - 2018-09-04 09:19:28 --> Error - Call to undefined method Fuel\Core\DB::count() in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\page\classes\controller\page.php on line 37
+ERROR - 2018-09-04 09:19:36 --> Error - Call to undefined method Fuel\Core\Database_Query_Builder_Select::count() in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\page\classes\controller\page.php on line 37
+ERROR - 2018-09-04 09:28:08 --> Error - syntax error, unexpected 'print_r' (T_STRING) in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\page\classes\controller\page.php on line 38
+ERROR - 2018-09-04 09:31:17 --> Notice - Undefined index:  in C:\xampp\htdocs\fu_hotel\fuel\packages\orm\classes\query.php on line 1396
+ERROR - 2018-09-04 09:32:06 --> Notice - Undefined index:  in C:\xampp\htdocs\fu_hotel\fuel\packages\orm\classes\query.php on line 1396
+ERROR - 2018-09-04 09:32:27 --> Notice - Undefined index:  in C:\xampp\htdocs\fu_hotel\fuel\packages\orm\classes\query.php on line 1396
+ERROR - 2018-09-04 09:32:35 --> Error - syntax error, unexpected ')' in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\page\classes\controller\page.php on line 40
+ERROR - 2018-09-04 09:33:05 --> Notice - Undefined index:  in C:\xampp\htdocs\fu_hotel\fuel\packages\orm\classes\query.php on line 1396
+ERROR - 2018-09-04 09:33:11 --> Notice - Undefined index:  in C:\xampp\htdocs\fu_hotel\fuel\packages\orm\classes\query.php on line 1396
+ERROR - 2018-09-04 09:33:21 --> Error - Relation "fields" was not found in the model "Page\Model_Page_Form_Fields". in C:\xampp\htdocs\fu_hotel\fuel\packages\orm\classes\query.php on line 920
+ERROR - 2018-09-04 09:33:49 --> Error - Relation "fields" was not found in the model "Page\Model_Page_Form_Fields". in C:\xampp\htdocs\fu_hotel\fuel\packages\orm\classes\query.php on line 920
+ERROR - 2018-09-04 09:33:50 --> Error - Relation "fields" was not found in the model "Page\Model_Page_Form_Fields". in C:\xampp\htdocs\fu_hotel\fuel\packages\orm\classes\query.php on line 920
+ERROR - 2018-09-04 09:34:17 --> Error - Relation "fieldsa" was not found in the model "Page\Model_Page_Form_Fields". in C:\xampp\htdocs\fu_hotel\fuel\packages\orm\classes\query.php on line 920
+ERROR - 2018-09-04 09:34:28 --> Error - Relation "fields" was not found in the model "Page\Model_Page_Form_Fields". in C:\xampp\htdocs\fu_hotel\fuel\packages\orm\classes\query.php on line 920
+ERROR - 2018-09-04 09:34:34 --> Notice - Undefined index:  in C:\xampp\htdocs\fu_hotel\fuel\packages\orm\classes\query.php on line 1396
+ERROR - 2018-09-04 09:36:40 --> Error - Property "one" not found for Page\Model_Page_Form. in C:\xampp\htdocs\fu_hotel\fuel\packages\orm\classes\model.php on line 1258
+ERROR - 2018-09-04 09:39:45 --> Notice - Undefined index:  in C:\xampp\htdocs\fu_hotel\fuel\packages\orm\classes\query.php on line 1396
+ERROR - 2018-09-04 09:39:51 --> Notice - Undefined index:  in C:\xampp\htdocs\fu_hotel\fuel\packages\orm\classes\query.php on line 1396
+ERROR - 2018-09-04 09:39:53 --> Notice - Undefined index:  in C:\xampp\htdocs\fu_hotel\fuel\packages\orm\classes\query.php on line 1396
+ERROR - 2018-09-04 09:40:32 --> Notice - Undefined index:  in C:\xampp\htdocs\fu_hotel\fuel\packages\orm\classes\query.php on line 1396
+ERROR - 2018-09-04 09:40:56 --> Notice - Undefined index:  in C:\xampp\htdocs\fu_hotel\fuel\packages\orm\classes\query.php on line 1396
+ERROR - 2018-09-04 09:41:09 --> Error - Related model not found by Has_Many relation "lang": \Page\Model_Page_Form_Fields_Langa in C:\xampp\htdocs\fu_hotel\fuel\packages\orm\classes\hasmany.php on line 37
+ERROR - 2018-09-04 09:41:28 --> 42S22 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fu_t1.iad' in 'on clause' with query: "SELECT `fu_t0`.`id` AS `t0_c0`, `fu_t0`.`email` AS `t0_c1`, `fu_t0`.`page_id` AS `t0_c2`, `fu_t1`.`id` AS `t1_c0`, `fu_t1`.`form_id` AS `t1_c1`, `fu_t1`.`type` AS `t1_c2`, `fu_t1`.`required` AS `t1_c3`, `fu_t2`.`field_id` AS `t2_c0`, `fu_t2`.`lang_code` AS `t2_c1`, `fu_t2`.`label` AS `t2_c2`, `fu_t2`.`placeholder` AS `t2_c3`, `fu_t2`.`values` AS `t2_c4` FROM (SELECT `fu_t0`.`id`, `fu_t0`.`email`, `fu_t0`.`page_id` FROM `fu_page_form` AS `fu_t0` WHERE `fu_t0`.`page_id` = '3' ORDER BY `fu_t0`.`id` ASC LIMIT 1) AS `fu_t0` LEFT JOIN `fu_page_form_fields` AS `fu_t1` ON (`fu_t0`.`id` = `fu_t1`.`form_id`) LEFT JOIN `fu_page_form_fields_lang` AS `fu_t2` ON (`fu_t1`.`iad` = `fu_t2`.`field_id`) ORDER BY `fu_t0`.`id` ASC" in C:\xampp\htdocs\fu_hotel\fuel\core\classes\database\pdo\connection.php on line 223
+ERROR - 2018-09-04 09:44:25 --> Error - Relation "langa" was not found in the model "Page\Model_Page_Form_Fields". in C:\xampp\htdocs\fu_hotel\fuel\packages\orm\classes\query.php on line 920
+ERROR - 2018-09-04 09:44:38 --> Error - Call to a member function to_array() on null in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\page\classes\controller\page.php on line 51
+ERROR - 2018-09-04 09:44:46 --> Error - Call to a member function to_array() on null in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\page\classes\controller\page.php on line 51
+ERROR - 2018-09-04 09:44:48 --> Error - Call to a member function to_array() on null in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\page\classes\controller\page.php on line 51
+ERROR - 2018-09-04 09:45:53 --> Error - syntax error, unexpected '$data' (T_VARIABLE) in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\page\classes\controller\page.php on line 56
+ERROR - 2018-09-04 09:46:32 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 219
+ERROR - 2018-09-04 09:47:00 --> Notice - Undefined variable: model in C:\xampp\htdocs\fu_hotel\fuel\cms\themes\default\views\modules\page\index.php on line 1
+ERROR - 2018-09-04 09:47:48 --> Notice - Undefined variable: model in C:\xampp\htdocs\fu_hotel\fuel\cms\themes\default\views\modules\page\index.php on line 1
+ERROR - 2018-09-04 09:57:04 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 219
+ERROR - 2018-09-04 09:58:00 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 219
+ERROR - 2018-09-04 09:59:32 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 219
+ERROR - 2018-09-04 10:02:41 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 219
+ERROR - 2018-09-04 10:06:35 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\cms\themes\default\views\modules\page\index.php on line 17
+ERROR - 2018-09-04 10:14:01 --> Fatal Error - Method Fuel\Core\View::__toString() must not throw an exception, caught ParseError: syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\xampp\htdocs\fu_hotel\fuel\cms\themes\default\views\layouts\default.php on line 0
+ERROR - 2018-09-04 10:22:51 --> Error - syntax error, unexpected 'array_to_attr' (T_STRING) in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\page\classes\controller\page.php on line 64
+ERROR - 2018-09-04 10:25:58 --> Notice - Undefined index: name in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\page\classes\controller\page.php on line 71
+ERROR - 2018-09-04 10:27:36 --> Error - Class 'Page\Str' not found in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\page\classes\controller\page.php on line 80
+ERROR - 2018-09-04 10:28:12 --> Error - Class 'Page\Str' not found in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\page\classes\controller\page.php on line 84
+ERROR - 2018-09-04 10:29:37 --> Error - Class 'Email' not found in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\page\classes\controller\page.php on line 85
+ERROR - 2018-09-04 10:29:55 --> Error - Class 'Page\Email' not found in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\page\classes\controller\page.php on line 85
+ERROR - 2018-09-04 10:29:59 --> Error - Class 'Email' not found in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\page\classes\controller\page.php on line 85
+ERROR - 2018-09-04 10:33:47 --> Error - Undefined constant 'Registry' in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\page\classes\controller\page.php on line 83
+ERROR - 2018-09-04 10:54:53 --> Warning - stream_socket_client(): unable to connect to tcp://smtp.gmail.com:smtp.gmail.com (The requested address is not valid in its context. ) in C:\xampp\htdocs\fu_hotel\fuel\packages\email\classes\email\driver\smtp.php on line 159
+ERROR - 2018-09-04 10:55:10 --> Warning - stream_socket_client(): unable to connect to tcp://smtp.gmail.com:smtp.gmail.com (The requested address is not valid in its context. ) in C:\xampp\htdocs\fu_hotel\fuel\packages\email\classes\email\driver\smtp.php on line 159
+ERROR - 2018-09-04 10:55:49 --> Error - Must supply a SMTP host and port, none given. in C:\xampp\htdocs\fu_hotel\fuel\packages\email\classes\email\driver\smtp.php on line 90
+ERROR - 2018-09-04 10:56:14 --> Warning - stream_socket_client(): unable to connect to tcp://smtp.gmail.com:smtp.gmail.com (The requested address is not valid in its context. ) in C:\xampp\htdocs\fu_hotel\fuel\packages\email\classes\email\driver\smtp.php on line 159
+ERROR - 2018-09-04 10:56:36 --> Notice - fputs(): send of 5 bytes failed with errno=10054 An existing connection was forcibly closed by the remote host.  in C:\xampp\htdocs\fu_hotel\fuel\packages\email\classes\email\driver\smtp.php on line 274
+ERROR - 2018-09-04 11:05:23 --> Error - syntax error, unexpected ')' in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\page\classes\controller\page.php on line 124
+ERROR - 2018-09-04 11:07:06 --> Error - Call to undefined method Fuel\Core\Database_Query_Builder_Insert::save() in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\page\classes\controller\page.php on line 125
+ERROR - 2018-09-04 11:07:19 --> Notice - fputs(): send of 5 bytes failed with errno=10054 An existing connection was forcibly closed by the remote host.  in C:\xampp\htdocs\fu_hotel\fuel\packages\email\classes\email\driver\smtp.php on line 274
+ERROR - 2018-09-04 11:08:07 --> 23000 - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0-1-3' for key 'PRIMARY' with query: "INSERT INTO `fu_page_form_data` (`form_id`, `page_id`, `lang_code`, `extra`, `body`, `email`) VALUES ('1', '3', 'en', '{\"fullname\":\"Nguy\\u1ec5n h\\u00e0 Giang\",\"email\":\"unun.meomeo1723@gmail.com\",\"tel\":\"01666695902\",\"subject\":\"ti\\u00eau \\u0111\\u1ec1\",\"body\":\"N\\u1ed9i dung\"}', '<p>♦ Name: Nguyễn hà Giang</p><p>♦ Email: unun.meomeo1723@gmail.com</p><p>♦ Tel: 01666695902</p><p>♦ Subject: tiêu đề</p><p>♦ Message: Nội dung</p>', 'unun.meomeo1723@gmail.com')" in C:\xampp\htdocs\fu_hotel\fuel\core\classes\database\pdo\connection.php on line 223
+ERROR - 2018-09-04 11:08:57 --> 23000 - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0-1-3' for key 'PRIMARY' with query: "INSERT INTO `fu_page_form_data` (`form_id`, `page_id`, `lang_code`, `extra`, `body`, `email`) VALUES ('1', '3', 'en', '{\"fullname\":\"Nguy\\u1ec5n h\\u00e0 Giang\",\"email\":\"unun.meomeo1723@gmail.com\",\"tel\":\"01666695902\",\"subject\":\"ti\\u00eau \\u0111\\u1ec1\",\"body\":\"N\\u1ed9i dung\"}', '<p>♦ Name: Nguyễn hà Giang</p><p>♦ Email: unun.meomeo1723@gmail.com</p><p>♦ Tel: 01666695902</p><p>♦ Subject: tiêu đề</p><p>♦ Message: Nội dung</p>', 'unun.meomeo1723@gmail.com')" in C:\xampp\htdocs\fu_hotel\fuel\core\classes\database\pdo\connection.php on line 223
+ERROR - 2018-09-04 11:09:16 --> Notice - fputs(): send of 5 bytes failed with errno=10054 An existing connection was forcibly closed by the remote host.  in C:\xampp\htdocs\fu_hotel\fuel\packages\email\classes\email\driver\smtp.php on line 274
+ERROR - 2018-09-04 11:09:54 --> Notice - fputs(): send of 5 bytes failed with errno=10053 An established connection was aborted by the software in your host machine.  in C:\xampp\htdocs\fu_hotel\fuel\packages\email\classes\email\driver\smtp.php on line 274
+ERROR - 2018-09-04 11:11:48 --> Notice - fputs(): send of 5 bytes failed with errno=10054 An existing connection was forcibly closed by the remote host.  in C:\xampp\htdocs\fu_hotel\fuel\packages\email\classes\email\driver\smtp.php on line 274
+ERROR - 2018-09-04 11:12:20 --> Notice - fputs(): send of 5 bytes failed with errno=10054 An existing connection was forcibly closed by the remote host.  in C:\xampp\htdocs\fu_hotel\fuel\packages\email\classes\email\driver\smtp.php on line 274
+ERROR - 2018-09-04 11:12:36 --> Notice - fputs(): send of 5 bytes failed with errno=10054 An existing connection was forcibly closed by the remote host.  in C:\xampp\htdocs\fu_hotel\fuel\packages\email\classes\email\driver\smtp.php on line 274
+ERROR - 2018-09-04 11:20:41 --> Error - Property "caption" not found for Page\Model_Page_Post. in C:\xampp\htdocs\fu_hotel\fuel\packages\orm\classes\model.php on line 1258
+ERROR - 2018-09-04 11:20:59 --> Notice - Undefined variable: banner_summary in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\page\classes\controller\page.php on line 38
+ERROR - 2018-09-04 11:21:16 --> Notice - Undefined variable: banner_summary in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\page\classes\controller\page.php on line 38
+ERROR - 2018-09-04 11:21:22 --> Notice - Undefined variable: banner_summary in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\page\classes\controller\page.php on line 38
+ERROR - 2018-09-04 11:21:23 --> Notice - Undefined variable: banner_summary in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\page\classes\controller\page.php on line 38
+ERROR - 2018-09-04 11:24:44 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 219
+ERROR - 2018-09-04 11:24:46 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 219
+ERROR - 2018-09-04 11:24:49 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 219
+ERROR - 2018-09-04 11:27:03 --> Error - Argument 1 passed to Orm\Query::_parse_where_array() must be of the type array, string given, called in C:\xampp\htdocs\fu_hotel\fuel\packages\orm\classes\query.php on line 346 in C:\xampp\htdocs\fu_hotel\fuel\packages\orm\classes\query.php on line 333
+ERROR - 2018-09-04 11:28:01 --> Fatal Error - Method Fuel\Core\View::__toString() must not throw an exception, caught Error: Call to undefined function get_langs() in C:\xampp\htdocs\fu_hotel\fuel\core\classes\response.php on line 0
+ERROR - 2018-09-04 11:29:34 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 219
+ERROR - 2018-09-04 11:29:43 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 219
+ERROR - 2018-09-04 11:31:43 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 219
+ERROR - 2018-09-04 11:31:44 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 219
+ERROR - 2018-09-04 11:31:54 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 219
+ERROR - 2018-09-04 11:32:34 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 219
+ERROR - 2018-09-04 12:00:30 --> Error - Call to a member function as_array() on array in C:\xampp\htdocs\fu_hotel\fuel\app\classes\controller\home.php on line 28
+ERROR - 2018-09-04 12:00:34 --> Error - Call to a member function to_array() on array in C:\xampp\htdocs\fu_hotel\fuel\app\classes\controller\home.php on line 28
+ERROR - 2018-09-04 12:00:35 --> Error - Call to a member function to_array() on array in C:\xampp\htdocs\fu_hotel\fuel\app\classes\controller\home.php on line 28
+ERROR - 2018-09-04 12:00:36 --> Error - Call to a member function to_array() on array in C:\xampp\htdocs\fu_hotel\fuel\app\classes\controller\home.php on line 28
+ERROR - 2018-09-04 13:33:37 --> Error - Call to undefined method Fuel\Core\Fieldset_Field::set_message() in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\page\classes\controller\page.php on line 81
+ERROR - 2018-09-04 13:41:45 --> shutdown - The session data stored by the application in the cookie exceeds 4Kb. Select a different session storage driver. in C:\xampp\htdocs\fu_hotel\fuel\core\classes\session\driver.php on 626
+ERROR - 2018-09-04 13:41:45 --> Fatal Error - Method Fuel\Core\View::__toString() must not throw an exception, caught ParseError: syntax error, unexpected 'if' (T_IF) in C:\xampp\htdocs\fu_hotel\fuel\cms\themes\default\views\layouts\default.php on line 0
+ERROR - 2018-09-04 13:46:13 --> Notice - fputs(): send of 6 bytes failed with errno=10054 An existing connection was forcibly closed by the remote host.  in C:\xampp\htdocs\fu_hotel\fuel\packages\email\classes\email\driver\smtp.php on line 274
+ERROR - 2018-09-04 13:46:22 --> Notice - Undefined index: fullname in C:\xampp\htdocs\fu_hotel\fuel\cms\themes\default\views\modules\page\index.php on line 26
+ERROR - 2018-09-04 13:46:32 --> Notice - Undefined index: fullname in C:\xampp\htdocs\fu_hotel\fuel\cms\themes\default\views\modules\page\index.php on line 26
+ERROR - 2018-09-04 13:47:14 --> Notice - Undefined index: body in C:\xampp\htdocs\fu_hotel\fuel\cms\themes\default\views\modules\page\index.php on line 28
+ERROR - 2018-09-04 13:48:24 --> Error - syntax error, unexpected 'elseif' (T_ELSEIF) in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\page\classes\controller\page.php on line 84
+ERROR - 2018-09-04 13:52:30 --> Notice - Undefined index: fullname in C:\xampp\htdocs\fu_hotel\fuel\cms\themes\default\views\modules\page\index.php on line 26
+ERROR - 2018-09-04 13:52:33 --> Notice - Undefined index: fullname in C:\xampp\htdocs\fu_hotel\fuel\cms\themes\default\views\modules\page\index.php on line 26
+ERROR - 2018-09-04 13:53:39 --> Notice - Undefined index: fullname in C:\xampp\htdocs\fu_hotel\fuel\cms\themes\default\views\modules\page\index.php on line 27
+ERROR - 2018-09-04 14:04:30 --> Error - Module 'langsa' could not be found at 'APPPATH/\..\cms\modules\langsa\' in C:\xampp\htdocs\fu_hotel\fuel\core\classes\module.php on line 91
+ERROR - 2018-09-04 14:07:12 --> Error - Module 'langs::langs' could not be found at 'APPPATH/\..\cms\modules\langs::langs\' in C:\xampp\htdocs\fu_hotel\fuel\core\classes\module.php on line 91
+ERROR - 2018-09-04 14:07:18 --> Error - Module 'langs.langs' could not be found at 'APPPATH/\..\cms\modules\langs.langs\' in C:\xampp\htdocs\fu_hotel\fuel\core\classes\module.php on line 91
+ERROR - 2018-09-04 14:07:25 --> Error - Module 'langslangs' could not be found at 'APPPATH/\..\cms\modules\langslangs\' in C:\xampp\htdocs\fu_hotel\fuel\core\classes\module.php on line 91
+ERROR - 2018-09-04 14:07:36 --> Error - Module 'langslangs' could not be found at 'APPPATH/\..\cms\modules\langslangs\' in C:\xampp\htdocs\fu_hotel\fuel\core\classes\module.php on line 91
+ERROR - 2018-09-04 14:07:40 --> Error - Module 'langslangs' could not be found at 'APPPATH/\..\cms\modules\langslangs\' in C:\xampp\htdocs\fu_hotel\fuel\core\classes\module.php on line 91
+ERROR - 2018-09-04 14:31:31 --> Notice - Undefined index: general in C:\xampp\htdocs\fu_hotel\fuel\app\classes\registry.php on line 43
+ERROR - 2018-09-04 14:34:06 --> Notice - Undefined index: general in C:\xampp\htdocs\fu_hotel\fuel\app\classes\registry.php on line 43
+ERROR - 2018-09-04 14:34:12 --> Notice - Undefined index: general in C:\xampp\htdocs\fu_hotel\fuel\app\classes\registry.php on line 43
+ERROR - 2018-09-04 14:37:14 --> Notice - Undefined index: general in C:\xampp\htdocs\fu_hotel\fuel\app\classes\registry.php on line 48
+ERROR - 2018-09-04 14:37:15 --> Notice - Undefined index: theme in C:\xampp\htdocs\fu_hotel\fuel\app\classes\registry.php on line 48
+ERROR - 2018-09-04 14:38:27 --> Notice - Undefined index: general in C:\xampp\htdocs\fu_hotel\fuel\app\classes\registry.php on line 50
+ERROR - 2018-09-04 14:38:29 --> Notice - Undefined index: theme in C:\xampp\htdocs\fu_hotel\fuel\app\classes\registry.php on line 50
+ERROR - 2018-09-04 14:39:33 --> Notice - Undefined index: N in C:\xampp\htdocs\fu_hotel\fuel\app\classes\registry.php on line 37
+ERROR - 2018-09-04 14:39:35 --> Notice - Undefined index: N in C:\xampp\htdocs\fu_hotel\fuel\app\classes\registry.php on line 37
+ERROR - 2018-09-04 14:40:06 --> Notice - Undefined index: lang_active in C:\xampp\htdocs\fu_hotel\fuel\app\classes\registry.php on line 37
+ERROR - 2018-09-04 14:40:34 --> Notice - Undefined index: N in C:\xampp\htdocs\fu_hotel\fuel\app\classes\registry.php on line 36
+ERROR - 2018-09-04 14:44:47 --> Notice - Undefined index: general in C:\xampp\htdocs\fu_hotel\fuel\app\classes\registry.php on line 60
+ERROR - 2018-09-04 14:44:49 --> Notice - Undefined index: theme in C:\xampp\htdocs\fu_hotel\fuel\app\classes\registry.php on line 60
+ERROR - 2018-09-04 14:45:29 --> 23000 - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '13' for key 'PRIMARY' with query: "INSERT INTO `fu_settings_lang` (`setting_id`, `lang_code`, `value`) VALUES (13, 'vi', 'd/m/Y')" in C:\xampp\htdocs\fu_hotel\fuel\core\classes\database\pdo\connection.php on line 223
+ERROR - 2018-09-04 14:45:30 --> 23000 - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '14' for key 'PRIMARY' with query: "INSERT INTO `fu_settings_lang` (`setting_id`, `lang_code`, `value`) VALUES (14, 'vi', 'H:M')" in C:\xampp\htdocs\fu_hotel\fuel\core\classes\database\pdo\connection.php on line 223
+ERROR - 2018-09-04 14:45:32 --> 23000 - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '15' for key 'PRIMARY' with query: "INSERT INTO `fu_settings_lang` (`setting_id`, `lang_code`, `value`) VALUES (15, 'vi', 'TM CMS')" in C:\xampp\htdocs\fu_hotel\fuel\core\classes\database\pdo\connection.php on line 223
+ERROR - 2018-09-04 14:46:03 --> 23000 - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '16' for key 'PRIMARY' with query: "INSERT INTO `fu_settings_lang` (`setting_id`, `lang_code`, `value`) VALUES (16, 'vi', 'kw')" in C:\xampp\htdocs\fu_hotel\fuel\core\classes\database\pdo\connection.php on line 223
+ERROR - 2018-09-04 14:46:06 --> 23000 - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '17' for key 'PRIMARY' with query: "INSERT INTO `fu_settings_lang` (`setting_id`, `lang_code`, `value`) VALUES (17, 'vi', 'ds')" in C:\xampp\htdocs\fu_hotel\fuel\core\classes\database\pdo\connection.php on line 223
+ERROR - 2018-09-04 14:46:06 --> 23000 - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '20' for key 'PRIMARY' with query: "INSERT INTO `fu_settings_lang` (`setting_id`, `lang_code`, `value`) VALUES (20, 'vi', 'Thiên Minh')" in C:\xampp\htdocs\fu_hotel\fuel\core\classes\database\pdo\connection.php on line 223
+ERROR - 2018-09-04 14:46:06 --> 23000 - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '21' for key 'PRIMARY' with query: "INSERT INTO `fu_settings_lang` (`setting_id`, `lang_code`, `value`) VALUES (21, 'vi', '346 Bến Vân Đồn')" in C:\xampp\htdocs\fu_hotel\fuel\core\classes\database\pdo\connection.php on line 223
+ERROR - 2018-09-04 14:46:07 --> 23000 - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '22' for key 'PRIMARY' with query: "INSERT INTO `fu_settings_lang` (`setting_id`, `lang_code`, `value`) VALUES (22, 'vi', '01666695902')" in C:\xampp\htdocs\fu_hotel\fuel\core\classes\database\pdo\connection.php on line 223
+ERROR - 2018-09-04 14:46:22 --> 23000 - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '13' for key 'PRIMARY' with query: "INSERT INTO `fu_settings_lang` (`setting_id`, `lang_code`, `value`) VALUES (13, 'vi', 'd/m/Y')" in C:\xampp\htdocs\fu_hotel\fuel\core\classes\database\pdo\connection.php on line 223
+ERROR - 2018-09-04 14:46:36 --> 23000 - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '14' for key 'PRIMARY' with query: "INSERT INTO `fu_settings_lang` (`setting_id`, `lang_code`, `value`) VALUES (14, 'vi', 'H:M')" in C:\xampp\htdocs\fu_hotel\fuel\core\classes\database\pdo\connection.php on line 223
+ERROR - 2018-09-04 14:46:37 --> 23000 - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '15' for key 'PRIMARY' with query: "INSERT INTO `fu_settings_lang` (`setting_id`, `lang_code`, `value`) VALUES (15, 'vi', 'TM CMS')" in C:\xampp\htdocs\fu_hotel\fuel\core\classes\database\pdo\connection.php on line 223
+ERROR - 2018-09-04 14:46:38 --> 23000 - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '16' for key 'PRIMARY' with query: "INSERT INTO `fu_settings_lang` (`setting_id`, `lang_code`, `value`) VALUES (16, 'vi', 'kw')" in C:\xampp\htdocs\fu_hotel\fuel\core\classes\database\pdo\connection.php on line 223
+ERROR - 2018-09-04 14:46:38 --> 23000 - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '17' for key 'PRIMARY' with query: "INSERT INTO `fu_settings_lang` (`setting_id`, `lang_code`, `value`) VALUES (17, 'vi', 'ds')" in C:\xampp\htdocs\fu_hotel\fuel\core\classes\database\pdo\connection.php on line 223
+ERROR - 2018-09-04 14:46:38 --> 23000 - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '20' for key 'PRIMARY' with query: "INSERT INTO `fu_settings_lang` (`setting_id`, `lang_code`, `value`) VALUES (20, 'vi', 'Thiên Minh')" in C:\xampp\htdocs\fu_hotel\fuel\core\classes\database\pdo\connection.php on line 223
+ERROR - 2018-09-04 14:46:39 --> 23000 - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '21' for key 'PRIMARY' with query: "INSERT INTO `fu_settings_lang` (`setting_id`, `lang_code`, `value`) VALUES (21, 'vi', '346 Bến Vân Đồn')" in C:\xampp\htdocs\fu_hotel\fuel\core\classes\database\pdo\connection.php on line 223
+ERROR - 2018-09-04 14:46:39 --> 23000 - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '22' for key 'PRIMARY' with query: "INSERT INTO `fu_settings_lang` (`setting_id`, `lang_code`, `value`) VALUES (22, 'vi', '01666695902')" in C:\xampp\htdocs\fu_hotel\fuel\core\classes\database\pdo\connection.php on line 223
+ERROR - 2018-09-04 14:46:39 --> Notice - Undefined index: general in C:\xampp\htdocs\fu_hotel\fuel\app\classes\registry.php on line 63
+ERROR - 2018-09-04 14:46:41 --> Notice - Undefined index: theme in C:\xampp\htdocs\fu_hotel\fuel\app\classes\registry.php on line 63
+ERROR - 2018-09-04 14:47:14 --> Notice - Undefined index: general in C:\xampp\htdocs\fu_hotel\fuel\app\classes\registry.php on line 63
+ERROR - 2018-09-04 14:47:16 --> Notice - Undefined index: theme in C:\xampp\htdocs\fu_hotel\fuel\app\classes\registry.php on line 63
+ERROR - 2018-09-04 14:54:19 --> Notice - Undefined variable: lang_setting in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\setting\classes\model\setting.php on line 97
+ERROR - 2018-09-04 14:56:25 --> Notice - Undefined index: value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\setting.php on line 93
+ERROR - 2018-09-04 14:56:45 --> Error - Call to a member function reset() on array in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\setting.php on line 92
+ERROR - 2018-09-04 15:09:23 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 219
+ERROR - 2018-09-04 15:09:27 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 219
+ERROR - 2018-09-04 15:09:30 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 219
+ERROR - 2018-09-04 15:09:36 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 219
+ERROR - 2018-09-04 15:09:59 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 219
+ERROR - 2018-09-04 15:10:09 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 219
+ERROR - 2018-09-04 15:10:22 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 219
+ERROR - 2018-09-04 15:10:30 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 219
+ERROR - 2018-09-04 15:10:35 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 219
+ERROR - 2018-09-04 15:15:25 --> Error - Class 'Seo\Model_Seo' not found in C:\xampp\htdocs\fu_hotel\fuel\app\classes\controller\home.php on line 41
+ERROR - 2018-09-04 15:16:11 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 219
+ERROR - 2018-09-04 15:16:35 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 219
+ERROR - 2018-09-04 15:16:55 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 219
+ERROR - 2018-09-04 15:19:10 --> Error - Class 'Page\Model_Page_Post' not found in C:\xampp\htdocs\fu_hotel\fuel\app\classes\controller\home.php on line 46
+ERROR - 2018-09-04 15:23:27 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\blog.php on line 217
+ERROR - 2018-09-04 15:23:32 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\blog.php on line 217
+ERROR - 2018-09-04 15:25:21 --> Error - Class 'Page\Model_Page' not found in C:\xampp\htdocs\fu_hotel\fuel\app\classes\controller\home.php on line 45
+ERROR - 2018-09-04 15:25:42 --> Error - Class 'Page\Model_Pages' not found in C:\xampp\htdocs\fu_hotel\fuel\app\classes\controller\home.php on line 45
+ERROR - 2018-09-04 15:25:47 --> Error - Class 'Page\Model_Page' not found in C:\xampp\htdocs\fu_hotel\fuel\app\classes\controller\home.php on line 45
+ERROR - 2018-09-04 15:30:40 --> Error - Relation "lang" was not found in the model. in C:\xampp\htdocs\fu_hotel\fuel\packages\orm\classes\query.php on line 930
+ERROR - 2018-09-04 15:37:18 --> Error - syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in C:\xampp\htdocs\fu_hotel\fuel\app\classes\controller\home.php on line 46
+ERROR - 2018-09-04 15:40:15 --> Error - Call to undefined method Fuel\Core\Database_Query_Builder_Select::get() in C:\xampp\htdocs\fu_hotel\fuel\app\classes\controller\home.php on line 45
+ERROR - 2018-09-04 15:40:30 --> 42S02 - SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fu_hotel.fu_page_post' doesn't exist with query: "SELECT * FROM `fu_page_post` WHERE `slug` = 'about-us'" in C:\xampp\htdocs\fu_hotel\fuel\core\classes\database\pdo\connection.php on line 223
+ERROR - 2018-09-04 15:41:11 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\fu_hotel\fuel\app\classes\controller\home.php on line 57
+ERROR - 2018-09-04 15:44:49 --> Fatal Error - Method Fuel\Core\View::__toString() must not throw an exception, caught ParseError: syntax error, unexpected ':', expecting ',' or ';' in C:\xampp\htdocs\fu_hotel\fuel\cms\themes\default\views\layouts\default.php on line 0
+ERROR - 2018-09-04 15:49:11 --> Error - syntax error, unexpected '"AAAA"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\langs\lang\en\frontend.php on line 17
+ERROR - 2018-09-04 15:49:21 --> Notice - Array to string conversion in C:\xampp\htdocs\fu_hotel\fuel\cms\themes\default\views\home\index.php on line 24
+ERROR - 2018-09-04 15:49:21 --> Notice - Array to string conversion in C:\xampp\htdocs\fu_hotel\fuel\cms\themes\default\views\home\index.php on line 24
+ERROR - 2018-09-04 15:49:22 --> Notice - Array to string conversion in C:\xampp\htdocs\fu_hotel\fuel\cms\themes\default\views\home\index.php on line 24
+ERROR - 2018-09-04 17:07:29 --> Notice - Undefined index: theme in C:\xampp\htdocs\fu_hotel\fuel\app\classes\registry.php on line 61
+ERROR - 2018-09-04 17:11:26 --> Notice - Undefined index: general in C:\xampp\htdocs\fu_hotel\fuel\app\classes\registry.php on line 61
+ERROR - 2018-09-04 17:19:49 --> Notice - Undefined variable: footer in C:\xampp\htdocs\fu_hotel\fuel\cms\themes\default\views\layouts\default.php on line 136
+ERROR - 2018-09-04 17:19:58 --> Notice - Undefined variable: footer in C:\xampp\htdocs\fu_hotel\fuel\cms\themes\default\views\layouts\default.php on line 136
+ERROR - 2018-09-04 17:22:02 --> 1045 - SQLSTATE[HY000] [1045] Access denied for user 'fuel_app'@'localhost' (using password: YES) in C:\xampp\htdocs\fu_hotel\fuel\core\classes\database\pdo\connection.php on line 86
+ERROR - 2018-09-04 17:22:03 --> 1045 - SQLSTATE[HY000] [1045] Access denied for user 'fuel_app'@'localhost' (using password: YES) in C:\xampp\htdocs\fu_hotel\fuel\core\classes\database\pdo\connection.php on line 86
+ERROR - 2018-09-04 17:22:24 --> 42S02 - SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fu_hotel.banners' doesn't exist with query: "SELECT `t0`.`id` AS `t0_c0`, `t0`.`url` AS `t0_c1`, `t0`.`status` AS `t0_c2`, `t0`.`position` AS `t0_c3`, `t0`.`created_at` AS `t0_c4`, `t0`.`updated_at` AS `t0_c5`, `t1`.`banner_id` AS `t1_c0`, `t1`.`lang_code` AS `t1_c1`, `t1`.`title` AS `t1_c2`, `t1`.`summary` AS `t1_c3` FROM `banners` AS `t0` LEFT JOIN `banners_lang` AS `t1` ON (`t0`.`id` = `t1`.`banner_id`) WHERE `t0`.`status` = 'A' AND `t1`.`lang_code` = 'en' ORDER BY `t0`.`position` ASC" in C:\xampp\htdocs\fu_hotel\fuel\core\classes\database\pdo\connection.php on line 223
+ERROR - 2018-09-04 17:22:25 --> 42S02 - SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fu_hotel.banners' doesn't exist with query: "SELECT `t0`.`id` AS `t0_c0`, `t0`.`url` AS `t0_c1`, `t0`.`status` AS `t0_c2`, `t0`.`position` AS `t0_c3`, `t0`.`created_at` AS `t0_c4`, `t0`.`updated_at` AS `t0_c5`, `t1`.`banner_id` AS `t1_c0`, `t1`.`lang_code` AS `t1_c1`, `t1`.`title` AS `t1_c2`, `t1`.`summary` AS `t1_c3` FROM `banners` AS `t0` LEFT JOIN `banners_lang` AS `t1` ON (`t0`.`id` = `t1`.`banner_id`) WHERE `t0`.`status` = 'A' AND `t1`.`lang_code` = 'en' ORDER BY `t0`.`position` ASC" in C:\xampp\htdocs\fu_hotel\fuel\core\classes\database\pdo\connection.php on line 223
+ERROR - 2018-09-04 17:23:23 --> Notice - Use of undefined constant FUEL_ENV - assumed 'FUEL_ENV' in C:\xampp\htdocs\fu_hotel\fuel\cms\themes\default\views\partials\footer.php on line 74
+ERROR - 2018-09-04 17:39:01 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 219
+ERROR - 2018-09-04 17:39:08 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 219
+ERROR - 2018-09-04 17:39:41 --> Warning - Creating default object from empty value in C:\xampp\htdocs\fu_hotel\fuel\cms\modules\admin\classes\controller\page.php on line 219
+ERROR - 2018-09-04 17:50:28 --> Error - syntax error, unexpected '&' in C:\xampp\htdocs\fu_hotel\fuel\cms\my_helper.php on line 56
+ERROR - 2018-09-04 17:50:31 --> Error - syntax error, unexpected '&' in C:\xampp\htdocs\fu_hotel\fuel\cms\my_helper.php on line 56
+ERROR - 2018-09-04 17:51:04 --> Warning - preg_replace(): Empty regular expression in C:\xampp\htdocs\fu_hotel\fuel\cms\my_helper.php on line 66
+ERROR - 2018-09-04 17:51:06 --> Warning - preg_replace(): Empty regular expression in C:\xampp\htdocs\fu_hotel\fuel\cms\my_helper.php on line 66
+ERROR - 2018-09-04 17:51:27 --> Warning - preg_replace(): Empty regular expression in C:\xampp\htdocs\fu_hotel\fuel\cms\my_helper.php on line 66

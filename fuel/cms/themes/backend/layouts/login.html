@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title><?php echo $title; ?></title>
+
+    <!-- Bootstrap vendors -->
+    <?php echo Asset::css('bootstrap/dist/css/bootstrap.min.css'); ?>
+    <!-- Font Awesome vendors -->
+    <?php echo Asset::css('font-awesome/css/font-awesome.min.css'); ?>
+    <!-- NProgress vendors -->
+    <?php echo Asset::css('nprogress/nprogress.css'); ?>
+    <!-- Animate.css vendors -->
+    <?php echo Asset::css('animate.css/animate.min.css'); ?>
+
+    <!-- Custom Theme Style build -->
+    <?php echo Asset::css('custom.min.css'); ?>
+    <link rel="shortcut icon" href="<?php echo \Uri::create(Asset::find_file("favicon.png", 'img'));?>">
+    <style>
+    html{
+      background:#012f5c;
+    }
+    .login_content form input[type=text], .login_content form input[type=email], .login_content form input[type=password]{
+      box-shadow:none;
+    }
+    .login_content{
+      border:1px solid #ccc;
+      border-top:1px solid #860605;
+      border-radius:5px;
+      box-shadow:1px 2px 3px #ccc;
+      padding-top:0;
+      
+    }
+    .login_content h2{
+      border-bottom:1px solid #860605;
+      margin:0;
+      padding:10px 0;
+      margin-bottom:15px;
+      background:#860605;
+      color:#fff;
+      border-radius:5px 5px 0 0;
+    }
+    .login_content form{
+      margin-top:0;
+    }
+    .login_content form .form-group {
+      padding:0 15px;
+    }
+    .login_content form input[type=submit]{
+      margin-left:15px;
+    }
+    .logo-login{
+      position: relative;
+      border-radius:50%;
+      box-shadow:1px 2px 3px #860605;
+    }
+    </style>
+  </head>
+
+  <body class="login">
+    <div>
+      <a class="hiddenanchor" id="signup"></a>
+      <a class="hiddenanchor" id="signin"></a>
+
+      <div class="login_wrapper">
+        <div class="animate form login_form">
+          <div style="margin:15px auto;text-align:center;">
+          <?php 
+            $site_logo_admin = \Registry::get_setting("site.site_logo_admin"); 
+            if(!empty($site_logo_admin)){?>
+            <img src="<?php echo Uri::create($site_logo_admin);?>" alt="" />
+            <?php }else{?>
+          <?php echo Asset::img("img.png",array("class"=>"logo-login"));?>
+          <?php } ?>
+          </div>
+          <section class="login_content">
+            <?php echo $content;?>
+              <div class="clearfix"></div>              
+          </section>
+          
+          
+          
+              
+        </div>
+
+        
+      </div>
+    </div>
+  </body>
+</html>
